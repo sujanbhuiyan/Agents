@@ -66,23 +66,23 @@ Full install matrix in [docs/multi-platform.md](docs/multi-platform.md).
 
 | # | Category | Agents | Focus |
 | --- | --- | --- | --- |
-| 01 | 🏗️ **[Engineering](categories/01-engineering/README.md)** | 1 | Core software engineering — backend, frontend, full-stack, mobile, and system architecture. |
-| 02 | 🔤 **[Languages & Frameworks](categories/02-languages-frameworks/README.md)** | 0 | Deep language and framework specialists with idiomatic, production-grade expertise. |
-| 03 | ⚙️ **[Infrastructure & DevOps](categories/03-infrastructure-devops/README.md)** | 0 | Cloud, CI/CD, reliability, observability, and platform operations. |
-| 04 | 🧪 **[Quality & Testing](categories/04-quality-testing/README.md)** | 0 | Testing, code review, performance, and release confidence. |
-| 05 | 🛡️ **[Security & Compliance](categories/05-security-compliance/README.md)** | 0 | Application security, threat detection, auditing, and regulatory compliance. |
-| 06 | 🧠 **[Data & AI](categories/06-data-ai/README.md)** | 0 | Data engineering, analytics, machine learning, and applied AI systems. |
-| 07 | 🎨 **[Design & UX](categories/07-design-ux/README.md)** | 0 | Product design, UX research, brand, and visual craft. |
-| 08 | 🗺️ **[Product & Management](categories/08-product-management/README.md)** | 0 | Product strategy, delivery, discovery, and team coordination. |
-| 09 | 📈 **[Marketing & Growth](categories/09-marketing-growth/README.md)** | 0 | Growth, content, SEO/GEO, advertising, and lifecycle marketing. |
-| 10 | 📣 **[Social Media](categories/10-social-media/README.md)** | 0 | Platform-native social strategy, content, and community engagement. |
-| 11 | 💰 **[Sales & Revenue](categories/11-sales-revenue/README.md)** | 0 | Sales engineering, deal strategy, outbound, and revenue operations. |
-| 12 | 🏦 **[Business, Finance & Legal](categories/12-business-finance-legal/README.md)** | 0 | Finance, legal, HR, support, and back-office operations. |
-| 13 | 🎮 **[Game Development](categories/13-game-development/README.md)** | 0 | Game design and engine specialists — Unity, Unreal, Godot, Roblox, and Blender. |
-| 14 | 🌏 **[Regional Markets](categories/14-regional-markets/README.md)** | 0 | Region-specific commerce and platform specialists (China-market and cross-border). |
-| 15 | 🧬 **[Specialized Domains](categories/15-specialized-domains/README.md)** | 0 | Blockchain, XR, embedded, scientific, civil, and creative/worldbuilding domains. |
-| 16 | 🎛️ **[Meta & Orchestration](categories/16-meta-orchestration/README.md)** | 0 | Orchestrators and coordinators that compose, route, and manage other agents. |
-| | **Total** | **1** | 🔴 1 opus · 🟡 0 sonnet · 🟢 0 haiku |
+| 01 | 🏗️ **[Engineering](categories/01-engineering/README.md)** | 13 | Core software engineering — backend, frontend, full-stack, mobile, and system architecture. |
+| 02 | 🔤 **[Languages & Frameworks](categories/02-languages-frameworks/README.md)** | 16 | Deep language and framework specialists with idiomatic, production-grade expertise. |
+| 03 | ⚙️ **[Infrastructure & DevOps](categories/03-infrastructure-devops/README.md)** | 12 | Cloud, CI/CD, reliability, observability, and platform operations. |
+| 04 | 🧪 **[Quality & Testing](categories/04-quality-testing/README.md)** | 12 | Testing, code review, performance, and release confidence. |
+| 05 | 🛡️ **[Security & Compliance](categories/05-security-compliance/README.md)** | 10 | Application security, threat detection, auditing, and regulatory compliance. |
+| 06 | 🧠 **[Data & AI](categories/06-data-ai/README.md)** | 14 | Data engineering, analytics, machine learning, and applied AI systems. |
+| 07 | 🎨 **[Design & UX](categories/07-design-ux/README.md)** | 12 | Product design, UX research, brand, and visual craft. |
+| 08 | 🗺️ **[Product & Management](categories/08-product-management/README.md)** | 12 | Product strategy, delivery, discovery, and team coordination. |
+| 09 | 📈 **[Marketing & Growth](categories/09-marketing-growth/README.md)** | 14 | Growth, content, SEO/GEO, advertising, and lifecycle marketing. |
+| 10 | 📣 **[Social Media](categories/10-social-media/README.md)** | 9 | Platform-native social strategy, content, and community engagement. |
+| 11 | 💰 **[Sales & Revenue](categories/11-sales-revenue/README.md)** | 10 | Sales engineering, deal strategy, outbound, and revenue operations. |
+| 12 | 🏦 **[Business, Finance & Legal](categories/12-business-finance-legal/README.md)** | 14 | Finance, legal, HR, support, and back-office operations. |
+| 13 | 🎮 **[Game Development](categories/13-game-development/README.md)** | 14 | Game design and engine specialists — Unity, Unreal, Godot, Roblox, and Blender. |
+| 14 | 🌏 **[Regional Markets](categories/14-regional-markets/README.md)** | 14 | Region-specific commerce and platform specialists (China-market and cross-border). |
+| 15 | 🧬 **[Specialized Domains](categories/15-specialized-domains/README.md)** | 18 | Blockchain, XR, embedded, scientific, civil, and creative/worldbuilding domains. |
+| 16 | 🎛️ **[Meta & Orchestration](categories/16-meta-orchestration/README.md)** | 9 | Orchestrators and coordinators that compose, route, and manage other agents. |
+| | **Total** | **203** | 🔴 46 opus · 🟡 153 sonnet · 🟢 4 haiku |
 
 <!-- CATALOG:END -->
 

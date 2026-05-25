@@ -1,105 +1,364 @@
 {
   "generatedAt": "2026-05-25",
-  "total": 1,
+  "total": 203,
   "categories": [
     {
       "id": "01-engineering",
       "title": "Engineering",
       "emoji": "🏗️",
-      "count": 1
+      "count": 13
     },
     {
       "id": "02-languages-frameworks",
       "title": "Languages & Frameworks",
       "emoji": "🔤",
-      "count": 0
+      "count": 16
     },
     {
       "id": "03-infrastructure-devops",
       "title": "Infrastructure & DevOps",
       "emoji": "⚙️",
-      "count": 0
+      "count": 12
     },
     {
       "id": "04-quality-testing",
       "title": "Quality & Testing",
       "emoji": "🧪",
-      "count": 0
+      "count": 12
     },
     {
       "id": "05-security-compliance",
       "title": "Security & Compliance",
       "emoji": "🛡️",
-      "count": 0
+      "count": 10
     },
     {
       "id": "06-data-ai",
       "title": "Data & AI",
       "emoji": "🧠",
-      "count": 0
+      "count": 14
     },
     {
       "id": "07-design-ux",
       "title": "Design & UX",
       "emoji": "🎨",
-      "count": 0
+      "count": 12
     },
     {
       "id": "08-product-management",
       "title": "Product & Management",
       "emoji": "🗺️",
-      "count": 0
+      "count": 12
     },
     {
       "id": "09-marketing-growth",
       "title": "Marketing & Growth",
       "emoji": "📈",
-      "count": 0
+      "count": 14
     },
     {
       "id": "10-social-media",
       "title": "Social Media",
       "emoji": "📣",
-      "count": 0
+      "count": 9
     },
     {
       "id": "11-sales-revenue",
       "title": "Sales & Revenue",
       "emoji": "💰",
-      "count": 0
+      "count": 10
     },
     {
       "id": "12-business-finance-legal",
       "title": "Business, Finance & Legal",
       "emoji": "🏦",
-      "count": 0
+      "count": 14
     },
     {
       "id": "13-game-development",
       "title": "Game Development",
       "emoji": "🎮",
-      "count": 0
+      "count": 14
     },
     {
       "id": "14-regional-markets",
       "title": "Regional Markets",
       "emoji": "🌏",
-      "count": 0
+      "count": 14
     },
     {
       "id": "15-specialized-domains",
       "title": "Specialized Domains",
       "emoji": "🧬",
-      "count": 0
+      "count": 18
     },
     {
       "id": "16-meta-orchestration",
       "title": "Meta & Orchestration",
       "emoji": "🎛️",
-      "count": 0
+      "count": 9
     }
   ],
   "agents": [
+    {
+      "name": "accessibility-auditor",
+      "title": "Audits interfaces against WCAG and tests with real assistive technology.",
+      "category": "04-quality-testing",
+      "model": "sonnet",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "screen-reader",
+        "aria",
+        "inclusive-design"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob",
+        "WebFetch"
+      ],
+      "path": "categories/04-quality-testing/accessibility-auditor.md"
+    },
+    {
+      "name": "account-strategist",
+      "title": "Drives land-and-expand on strategic accounts — account plans, QBRs, expansion mapping, and net revenue retention.",
+      "category": "11-sales-revenue",
+      "model": "sonnet",
+      "tags": [
+        "account-management",
+        "expansion",
+        "qbr",
+        "retention",
+        "nrr"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/11-sales-revenue/account-strategist.md"
+    },
+    {
+      "name": "ad-creative-strategist",
+      "title": "Writes and tests ad creative — headlines, descriptions, hooks, and responsive search ads — across Google, Meta, TikTok, and LinkedIn.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "ad-creative",
+        "copywriting",
+        "rsa",
+        "creative-testing",
+        "meta-ads",
+        "hooks"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/ad-creative-strategist.md"
+    },
+    {
+      "name": "agent-orchestrator",
+      "title": "The default entry point for any request that spans multiple specialties.",
+      "category": "16-meta-orchestration",
+      "model": "opus",
+      "tags": [
+        "orchestration",
+        "routing",
+        "coordination",
+        "multi-agent",
+        "planning"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/16-meta-orchestration/agent-orchestrator.md"
+    },
+    {
+      "name": "agent-organizer",
+      "title": "The team-assembler.",
+      "category": "16-meta-orchestration",
+      "model": "opus",
+      "tags": [
+        "agent-selection",
+        "team-assembly",
+        "routing",
+        "capability-matching",
+        "planning"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/16-meta-orchestration/agent-organizer.md"
+    },
+    {
+      "name": "agentic-search-optimizer",
+      "title": "Makes a site usable and completable by AI browsing agents — so an autonomous agent can find, understand, and finish a task (buy, book, sign up) on the site.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "agentic-web",
+        "webmcp",
+        "ai-agents",
+        "task-completion",
+        "machine-readable",
+        "automation"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/agentic-search-optimizer.md"
+    },
+    {
+      "name": "ai-engineer",
+      "title": "Builds LLM- and ML-powered product features and the pipelines behind them, with evaluation baked in from the first commit.",
+      "category": "06-data-ai",
+      "model": "opus",
+      "tags": [
+        "llm",
+        "ai-features",
+        "evals",
+        "rag",
+        "inference"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/ai-engineer.md"
+    },
+    {
+      "name": "analytics-engineer",
+      "title": "Models the data warehouse with dbt and owns the metrics/semantic layer — the trusted, tested transformations between raw data and analysis.",
+      "category": "06-data-ai",
+      "model": "sonnet",
+      "tags": [
+        "dbt",
+        "semantic-layer",
+        "data-modeling",
+        "sql",
+        "metrics"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/analytics-engineer.md"
+    },
+    {
+      "name": "anthropologist",
+      "title": "Builds culturally coherent societies for worldbuilding and research — kinship, ritual, economy, belief, and social structure grounded in real anthropological theory.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "anthropology",
+        "worldbuilding",
+        "culture",
+        "kinship",
+        "ritual",
+        "social-structure"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/anthropologist.md"
+    },
+    {
+      "name": "api-designer",
+      "title": "Designs REST and GraphQL API contracts before implementation — resources, versioning, error shapes, pagination, and developer experience.",
+      "category": "01-engineering",
+      "model": "sonnet",
+      "tags": [
+        "api",
+        "rest",
+        "graphql",
+        "openapi",
+        "versioning",
+        "developer-experience"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/api-designer.md"
+    },
+    {
+      "name": "api-tester",
+      "title": "Validates APIs across contract, integration, load, and security dimensions.",
+      "category": "04-quality-testing",
+      "model": "sonnet",
+      "tags": [
+        "api-testing",
+        "contract-testing",
+        "load-testing",
+        "integration",
+        "security"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob",
+        "WebFetch"
+      ],
+      "path": "categories/04-quality-testing/api-tester.md"
+    },
+    {
+      "name": "app-store-optimizer",
+      "title": "Improves app discoverability and store-listing conversion (ASO) on the Apple App Store and Google Play — keywords, metadata, creatives, and ratings strategy.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "aso",
+        "app-store",
+        "google-play",
+        "keyword-research",
+        "conversion-rate",
+        "mobile"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/app-store-optimizer.md"
+    },
     {
       "name": "backend-architect",
       "title": "Designs backend systems, APIs, data models, and service boundaries before code is written.",
@@ -122,6 +381,4104 @@
         "Bash"
       ],
       "path": "categories/01-engineering/backend-architect.md"
+    },
+    {
+      "name": "baidu-seo-specialist",
+      "title": "Optimizes for Baidu (百度) — Chinese keyword strategy, ICP 备案 compliance, Baidu-specific ranking factors, and the owned-property ecosystem (百家号/百科/ 知道).",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "baidu",
+        "seo",
+        "icp-compliance",
+        "chinese-keywords",
+        "search",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/baidu-seo-specialist.md"
+    },
+    {
+      "name": "bilibili-content-strategist",
+      "title": "Grows Bilibili (B站) UP主 channels with long-form video, 弹幕 (danmaku) culture, and the platform's community-first economy.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "bilibili",
+        "long-form-video",
+        "danmaku",
+        "up-creator",
+        "community",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/bilibili-content-strategist.md"
+    },
+    {
+      "name": "bioinformatics-scientist",
+      "title": "Builds computational-biology and omics analysis pipelines — sequence data, QC, alignment, variant calling, and downstream statistics with reproducibility.",
+      "category": "15-specialized-domains",
+      "model": "opus",
+      "tags": [
+        "bioinformatics",
+        "genomics",
+        "omics",
+        "ngs",
+        "computational-biology",
+        "reproducibility"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/bioinformatics-scientist.md"
+    },
+    {
+      "name": "blender-pipeline-engineer",
+      "title": "Builds Blender add-ons and asset/exporter pipelines with the bpy Python API — automating export, validation, and DCC-to-engine handoff.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "blender",
+        "bpy",
+        "pipeline",
+        "asset-export",
+        "tooling"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/13-game-development/blender-pipeline-engineer.md"
+    },
+    {
+      "name": "blockchain-developer",
+      "title": "Builds full Web3 applications — dApps, wallet integrations, on-chain indexing, and the glue between smart contracts and users.",
+      "category": "15-specialized-domains",
+      "model": "opus",
+      "tags": [
+        "web3",
+        "dapp",
+        "ethers",
+        "viem",
+        "wallet-integration",
+        "indexing"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/15-specialized-domains/blockchain-developer.md"
+    },
+    {
+      "name": "blockchain-security-auditor",
+      "title": "Audits smart contracts and DeFi protocols for exploitable vulnerabilities and writes formal audit reports for authorized engagements.",
+      "category": "05-security-compliance",
+      "model": "opus",
+      "tags": [
+        "smart-contracts",
+        "defi",
+        "solidity",
+        "audit",
+        "reentrancy"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash",
+        "Write"
+      ],
+      "path": "categories/05-security-compliance/blockchain-security-auditor.md"
+    },
+    {
+      "name": "book-coauthor",
+      "title": "Co-authors long-form non-fiction and thought-leadership books from raw material — transcripts, notes, and ideas — into a coherent manuscript in the author's voice.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "book-writing",
+        "ghostwriting",
+        "thought-leadership",
+        "long-form",
+        "manuscript",
+        "nonfiction"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/book-coauthor.md"
+    },
+    {
+      "name": "bookkeeper-controller",
+      "title": "Runs the books: day-to-day bookkeeping, account reconciliations, and a clean, on-time month-end close.",
+      "category": "12-business-finance-legal",
+      "model": "sonnet",
+      "tags": [
+        "bookkeeping",
+        "reconciliation",
+        "month-end-close",
+        "gaap",
+        "accounting"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/12-business-finance-legal/bookkeeper-controller.md"
+    },
+    {
+      "name": "brand-guardian",
+      "title": "Develops and protects brand identity — voice, visual language, and the rules that keep it coherent across every touchpoint.",
+      "category": "07-design-ux",
+      "model": "sonnet",
+      "tags": [
+        "brand-identity",
+        "brand-guidelines",
+        "voice-tone",
+        "visual-identity",
+        "consistency"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/brand-guardian.md"
+    },
+    {
+      "name": "brand-strategist",
+      "title": "Develops brand strategy, positioning, and narrative architecture — the foundational decisions about what a brand stands for, who it's for, and why it wins.",
+      "category": "09-marketing-growth",
+      "model": "opus",
+      "tags": [
+        "brand-strategy",
+        "positioning",
+        "messaging",
+        "narrative",
+        "differentiation",
+        "value-proposition"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/brand-strategist.md"
+    },
+    {
+      "name": "business-operations-manager",
+      "title": "Optimizes processes, vendors, and day-to-day operations so the business runs smoothly and scales.",
+      "category": "12-business-finance-legal",
+      "model": "sonnet",
+      "tags": [
+        "operations",
+        "process-optimization",
+        "workflow",
+        "vendor-management",
+        "efficiency"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/12-business-finance-legal/business-operations-manager.md"
+    },
+    {
+      "name": "chaos-engineer",
+      "title": "Injects controlled faults to prove a system's resilience before production proves it the hard way.",
+      "category": "04-quality-testing",
+      "model": "sonnet",
+      "tags": [
+        "chaos-engineering",
+        "resilience",
+        "fault-injection",
+        "reliability",
+        "failover"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/04-quality-testing/chaos-engineer.md"
+    },
+    {
+      "name": "chief-of-staff",
+      "title": "The executive coordinator for a founder or leader.",
+      "category": "16-meta-orchestration",
+      "model": "opus",
+      "tags": [
+        "executive",
+        "triage",
+        "prioritization",
+        "routing",
+        "delegation"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/16-meta-orchestration/chief-of-staff.md"
+    },
+    {
+      "name": "china-ecommerce-operator",
+      "title": "Operates Chinese marketplace stores — Taobao/Tmall (淘宝/天猫), JD (京东), and Pinduoduo (拼多多) — covering listings, traffic, promotions, and the 618/Double 11 mega-campaigns.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "taobao",
+        "tmall",
+        "jd",
+        "pinduoduo",
+        "ecommerce-operations",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/china-ecommerce-operator.md"
+    },
+    {
+      "name": "ci-cd-engineer",
+      "title": "Designs build/test/deploy pipelines (GitHub Actions, GitLab CI, others) that are fast, safe, and reproducible.",
+      "category": "03-infrastructure-devops",
+      "model": "sonnet",
+      "tags": [
+        "cicd",
+        "github-actions",
+        "gitlab-ci",
+        "pipelines",
+        "deployment",
+        "caching"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/ci-cd-engineer.md"
+    },
+    {
+      "name": "civil-structural-engineer",
+      "title": "Performs structural analysis and code-compliant design of buildings and structures — load paths, member sizing, and connections under recognized codes (Eurocode, ACI, AISC, ASCE 7).",
+      "category": "15-specialized-domains",
+      "model": "opus",
+      "tags": [
+        "structural-engineering",
+        "civil",
+        "eurocode",
+        "aisc",
+        "aci",
+        "load-analysis"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/15-specialized-domains/civil-structural-engineer.md"
+    },
+    {
+      "name": "cli-tool-builder",
+      "title": "Builds ergonomic command-line tools and developer CLIs with great UX, scripting support, and helpful output.",
+      "category": "01-engineering",
+      "model": "sonnet",
+      "tags": [
+        "cli",
+        "developer-tools",
+        "ux",
+        "scripting",
+        "terminal"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/cli-tool-builder.md"
+    },
+    {
+      "name": "cloud-architect",
+      "title": "Designs cloud architecture on AWS, GCP, or Azure for cost, security, resilience, and operational excellence — the well-architected pillars.",
+      "category": "03-infrastructure-devops",
+      "model": "opus",
+      "tags": [
+        "cloud",
+        "aws",
+        "gcp",
+        "azure",
+        "well-architected",
+        "cost-optimization"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/cloud-architect.md"
+    },
+    {
+      "name": "cloud-security-architect",
+      "title": "Designs cloud security posture: IAM, network segmentation, encryption, guardrails, and CSPM across AWS, Azure, and GCP.",
+      "category": "05-security-compliance",
+      "model": "opus",
+      "tags": [
+        "cloud-security",
+        "iam",
+        "network-segmentation",
+        "cspm",
+        "guardrails"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash",
+        "Write"
+      ],
+      "path": "categories/05-security-compliance/cloud-security-architect.md"
+    },
+    {
+      "name": "code-reviewer",
+      "title": "Reviews diffs for correctness, security, and maintainability with high-signal, constructive feedback.",
+      "category": "04-quality-testing",
+      "model": "opus",
+      "tags": [
+        "code-review",
+        "correctness",
+        "security",
+        "maintainability",
+        "pull-request"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/04-quality-testing/code-reviewer.md"
+    },
+    {
+      "name": "cold-email-specialist",
+      "title": "Writes concise, high-converting cold emails that earn replies without spamming.",
+      "category": "11-sales-revenue",
+      "model": "haiku",
+      "tags": [
+        "cold-email",
+        "copywriting",
+        "personalization",
+        "outreach",
+        "conversion"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit"
+      ],
+      "path": "categories/11-sales-revenue/cold-email-specialist.md"
+    },
+    {
+      "name": "community-manager",
+      "title": "Builds and runs engaged communities — engagement programs, moderation, onboarding, and member retention across Discord, Slack, forums, and social comment sections.",
+      "category": "10-social-media",
+      "model": "sonnet",
+      "tags": [
+        "community",
+        "moderation",
+        "engagement",
+        "retention",
+        "member-experience"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/10-social-media/community-manager.md"
+    },
+    {
+      "name": "compliance-auditor",
+      "title": "Drives audit readiness for SOC 2, ISO 27001, HIPAA, and PCI-DSS: control mapping, evidence collection, gap analysis, and remediation planning.",
+      "category": "05-security-compliance",
+      "model": "opus",
+      "tags": [
+        "compliance",
+        "soc2",
+        "iso27001",
+        "hipaa",
+        "pci-dss"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash",
+        "Write"
+      ],
+      "path": "categories/05-security-compliance/compliance-auditor.md"
+    },
+    {
+      "name": "computer-vision-engineer",
+      "title": "Builds computer-vision systems — image/video classification, object detection, segmentation, OCR, and tracking — from data through deployment.",
+      "category": "06-data-ai",
+      "model": "opus",
+      "tags": [
+        "computer-vision",
+        "object-detection",
+        "segmentation",
+        "ocr",
+        "pytorch"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/computer-vision-engineer.md"
+    },
+    {
+      "name": "content-creator",
+      "title": "Builds multi-platform content strategy and writes high-engagement copy mapped to the funnel and the channel's native format.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "content-strategy",
+        "copywriting",
+        "social-media",
+        "content-calendar",
+        "repurposing"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/content-creator.md"
+    },
+    {
+      "name": "context-manager",
+      "title": "The shared-memory keeper for a multi-agent run.",
+      "category": "16-meta-orchestration",
+      "model": "sonnet",
+      "tags": [
+        "context",
+        "memory",
+        "summarization",
+        "handoff",
+        "state"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/16-meta-orchestration/context-manager.md"
+    },
+    {
+      "name": "contract-reviewer",
+      "title": "Reviews contracts for risk clauses, missing protections, and unfavorable terms, then proposes redlines.",
+      "category": "12-business-finance-legal",
+      "model": "opus",
+      "tags": [
+        "contract-review",
+        "redlining",
+        "risk-clauses",
+        "negotiation",
+        "legal"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/12-business-finance-legal/contract-reviewer.md"
+    },
+    {
+      "name": "conversion-rate-optimizer",
+      "title": "Optimizes landing pages and funnels through hypothesis-driven testing — finding the friction, forming a hypothesis, and proving the fix with experiments.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "cro",
+        "ab-testing",
+        "landing-pages",
+        "funnel-optimization",
+        "experimentation",
+        "ux"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/conversion-rate-optimizer.md"
+    },
+    {
+      "name": "copywriter",
+      "title": "Writes persuasive marketing copy across formats — landing pages, sales pages, ads, emails, headlines, product descriptions, and CTAs.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "copywriting",
+        "persuasion",
+        "headlines",
+        "sales-copy",
+        "conversion",
+        "messaging"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/copywriter.md"
+    },
+    {
+      "name": "cross-border-ecommerce-specialist",
+      "title": "Runs cross-border e-commerce (跨境电商) for Chinese sellers going global and global brands selling into Asia — Amazon, Shopee, Lazada, TikTok Shop, and Temu.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "cross-border",
+        "amazon",
+        "shopee",
+        "tiktok-shop",
+        "temu",
+        "ecommerce",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/cross-border-ecommerce-specialist.md"
+    },
+    {
+      "name": "csharp-dotnet-pro",
+      "title": "Writes modern C# and builds ASP.NET Core services with correct async, LINQ, and nullable-reference discipline.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "csharp",
+        "dotnet",
+        "async",
+        "aspnet-core",
+        "ef-core",
+        "performance"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/csharp-dotnet-pro.md"
+    },
+    {
+      "name": "customer-support-responder",
+      "title": "Resolves customer issues with empathy, accuracy, and clear escalation.",
+      "category": "12-business-finance-legal",
+      "model": "sonnet",
+      "tags": [
+        "customer-support",
+        "empathy",
+        "escalation",
+        "ticketing",
+        "communication"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/12-business-finance-legal/customer-support-responder.md"
+    },
+    {
+      "name": "data-analytics-reporter",
+      "title": "Builds dashboards and KPI reporting that drive decisions, not vanity walls of charts.",
+      "category": "06-data-ai",
+      "model": "sonnet",
+      "tags": [
+        "dashboards",
+        "kpis",
+        "reporting",
+        "bi",
+        "data-viz"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/data-analytics-reporter.md"
+    },
+    {
+      "name": "data-engineer",
+      "title": "Builds reliable data pipelines and lakehouse architecture — ingestion, ETL/ELT, batch and streaming — that other teams can trust.",
+      "category": "06-data-ai",
+      "model": "sonnet",
+      "tags": [
+        "etl",
+        "spark",
+        "dbt",
+        "airflow",
+        "lakehouse",
+        "streaming"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/data-engineer.md"
+    },
+    {
+      "name": "data-remediation-engineer",
+      "title": "Detects, classifies, and fixes data-quality anomalies at scale — duplicates, nulls, inconsistencies, broken references, and silent corruption.",
+      "category": "06-data-ai",
+      "model": "sonnet",
+      "tags": [
+        "data-quality",
+        "cleansing",
+        "deduplication",
+        "validation",
+        "remediation"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/data-remediation-engineer.md"
+    },
+    {
+      "name": "data-scientist",
+      "title": "Turns data into defensible insight through exploratory analysis, statistical modeling, and experiment design.",
+      "category": "06-data-ai",
+      "model": "sonnet",
+      "tags": [
+        "statistics",
+        "analysis",
+        "experimentation",
+        "modeling",
+        "hypothesis-testing"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/data-scientist.md"
+    },
+    {
+      "name": "database-administrator",
+      "title": "Operates databases for durability and availability — backups, replication, HA, failover, tuning, migrations, and recovery.",
+      "category": "03-infrastructure-devops",
+      "model": "sonnet",
+      "tags": [
+        "database",
+        "backups",
+        "replication",
+        "high-availability",
+        "migrations",
+        "recovery"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/database-administrator.md"
+    },
+    {
+      "name": "deal-strategist",
+      "title": "Qualifies and builds win plans for complex, multi-stakeholder B2B deals using MEDDPICC.",
+      "category": "11-sales-revenue",
+      "model": "opus",
+      "tags": [
+        "meddpicc",
+        "qualification",
+        "win-plan",
+        "b2b",
+        "competitive-strategy"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/11-sales-revenue/deal-strategist.md"
+    },
+    {
+      "name": "design-critique",
+      "title": "Delivers rigorous, specific, actionable critique of a design — evaluating it against usability heuristics, visual craft, accessibility, and goals.",
+      "category": "07-design-ux",
+      "model": "opus",
+      "tags": [
+        "design-review",
+        "critique",
+        "heuristic-evaluation",
+        "usability",
+        "feedback"
+      ],
+      "tools": [
+        "Read",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/design-critique.md"
+    },
+    {
+      "name": "design-system-architect",
+      "title": "Builds and governs design systems at scale — design tokens, component libraries, patterns, and the documentation and rules that keep them consistent across teams and platforms.",
+      "category": "07-design-ux",
+      "model": "sonnet",
+      "tags": [
+        "design-systems",
+        "design-tokens",
+        "component-library",
+        "theming",
+        "governance"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/design-system-architect.md"
+    },
+    {
+      "name": "desktop-app-engineer",
+      "title": "Builds cross-platform desktop apps with Electron or Tauri — native OS integration, packaging, code signing, and auto-updates.",
+      "category": "01-engineering",
+      "model": "sonnet",
+      "tags": [
+        "desktop",
+        "electron",
+        "tauri",
+        "packaging",
+        "auto-update"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/desktop-app-engineer.md"
+    },
+    {
+      "name": "developer-advocate",
+      "title": "Builds and nurtures developer communities through technical content, sample apps, talks, and two-way feedback (DevRel).",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "devrel",
+        "developer-relations",
+        "community",
+        "technical-content",
+        "advocacy",
+        "adoption"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/developer-advocate.md"
+    },
+    {
+      "name": "devops-automator",
+      "title": "Automates the build/release/operate loop — CI/CD pipelines, infrastructure provisioning, configuration, and the removal of repetitive manual toil.",
+      "category": "03-infrastructure-devops",
+      "model": "sonnet",
+      "tags": [
+        "cicd",
+        "automation",
+        "infrastructure-as-code",
+        "toil-reduction",
+        "deployment"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/devops-automator.md"
+    },
+    {
+      "name": "devsecops-engineer",
+      "title": "Embeds security into CI/CD pipelines: SAST, DAST, dependency scanning, supply-chain integrity, and secrets detection as automated gates.",
+      "category": "05-security-compliance",
+      "model": "sonnet",
+      "tags": [
+        "devsecops",
+        "ci-cd",
+        "sast",
+        "dast",
+        "supply-chain"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Grep",
+        "Glob",
+        "Bash"
+      ],
+      "path": "categories/05-security-compliance/devsecops-engineer.md"
+    },
+    {
+      "name": "discovery-coach",
+      "title": "Coaches elite sales discovery — question design, active listening, and quantifying the cost of the buyer's problem.",
+      "category": "11-sales-revenue",
+      "model": "sonnet",
+      "tags": [
+        "discovery",
+        "spin-selling",
+        "questioning",
+        "qualification",
+        "active-listening"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/11-sales-revenue/discovery-coach.md"
+    },
+    {
+      "name": "douyin-strategist",
+      "title": "Plans Douyin (抖音) short-video and livestream-commerce growth: hooks for the recommendation feed, content cadence, and 直播带货 (live-selling) playbooks.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "douyin",
+        "short-video",
+        "livestream-commerce",
+        "recommendation-algorithm",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/douyin-strategist.md"
+    },
+    {
+      "name": "e2e-testing-specialist",
+      "title": "Builds reliable end-to-end browser tests with Playwright or Cypress that verify real user journeys without flaking.",
+      "category": "04-quality-testing",
+      "model": "sonnet",
+      "tags": [
+        "e2e-testing",
+        "playwright",
+        "cypress",
+        "browser-testing",
+        "flake-resistance"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/04-quality-testing/e2e-testing-specialist.md"
+    },
+    {
+      "name": "email-marketing-strategist",
+      "title": "Designs lifecycle, nurture, and drip email sequences that move subscribers to action — welcome, onboarding, abandoned-cart, re-engagement, and post-purchase.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "email-marketing",
+        "lifecycle",
+        "drip-campaigns",
+        "segmentation",
+        "automation",
+        "nurture"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/email-marketing-strategist.md"
+    },
+    {
+      "name": "embedded-systems-engineer",
+      "title": "Writes firmware for constrained devices — RTOS and bare-metal — within strict memory, power, and timing budgets.",
+      "category": "01-engineering",
+      "model": "sonnet",
+      "tags": [
+        "embedded",
+        "firmware",
+        "rtos",
+        "bare-metal",
+        "low-power"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/embedded-systems-engineer.md"
+    },
+    {
+      "name": "evidence-collector",
+      "title": "Captures screenshots, logs, traces, and reproducible proof of actual behavior for QA sign-off and bug reports.",
+      "category": "04-quality-testing",
+      "model": "sonnet",
+      "tags": [
+        "evidence",
+        "screenshots",
+        "logs",
+        "bug-reports",
+        "reproducibility"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/04-quality-testing/evidence-collector.md"
+    },
+    {
+      "name": "executive-assistant",
+      "title": "Manages scheduling, inbox triage, briefings, and cross-party coordination so an executive's time goes to what matters.",
+      "category": "12-business-finance-legal",
+      "model": "sonnet",
+      "tags": [
+        "scheduling",
+        "inbox-triage",
+        "briefing",
+        "coordination",
+        "executive-support"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/12-business-finance-legal/executive-assistant.md"
+    },
+    {
+      "name": "experiment-tracker",
+      "title": "Designs, runs, and analyzes A/B tests and product experiments with statistical rigor.",
+      "category": "08-product-management",
+      "model": "sonnet",
+      "tags": [
+        "experimentation",
+        "ab-testing",
+        "statistics",
+        "metrics",
+        "analysis"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/experiment-tracker.md"
+    },
+    {
+      "name": "feedback-synthesizer",
+      "title": "Synthesizes user feedback from many channels into clustered, prioritized, decision-ready insight.",
+      "category": "08-product-management",
+      "model": "sonnet",
+      "tags": [
+        "user-feedback",
+        "synthesis",
+        "voice-of-customer",
+        "insights",
+        "theming"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/feedback-synthesizer.md"
+    },
+    {
+      "name": "feishu-integration-developer",
+      "title": "Builds on Feishu / Lark (飞书) — bots, Bitable (多维表格) automations, approval (审批) flows, and open-platform API integrations that wire Feishu into internal systems.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "feishu",
+        "lark",
+        "bitable",
+        "automation",
+        "integration",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/14-regional-markets/feishu-integration-developer.md"
+    },
+    {
+      "name": "finance-tracker",
+      "title": "Tracks cash flow, budgets, and the overall financial health of a small business or team.",
+      "category": "12-business-finance-legal",
+      "model": "sonnet",
+      "tags": [
+        "cash-flow",
+        "budgeting",
+        "runway",
+        "financial-health",
+        "expense-tracking"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/12-business-finance-legal/finance-tracker.md"
+    },
+    {
+      "name": "financial-analyst",
+      "title": "Builds financial models, forecasts, and scenario analysis that decisions are actually made on.",
+      "category": "12-business-finance-legal",
+      "model": "opus",
+      "tags": [
+        "financial-modeling",
+        "forecasting",
+        "valuation",
+        "dcf",
+        "scenario-analysis"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/12-business-finance-legal/financial-analyst.md"
+    },
+    {
+      "name": "fpa-analyst",
+      "title": "Owns the budget, the rolling forecast, and the monthly variance story.",
+      "category": "12-business-finance-legal",
+      "model": "sonnet",
+      "tags": [
+        "fpa",
+        "budgeting",
+        "variance-analysis",
+        "forecasting",
+        "planning"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/12-business-finance-legal/fpa-analyst.md"
+    },
+    {
+      "name": "frontend-developer",
+      "title": "Builds production-grade UIs in React, Vue, or Angular — component architecture, state management, rendering performance, and accessibility.",
+      "category": "01-engineering",
+      "model": "sonnet",
+      "tags": [
+        "react",
+        "vue",
+        "accessibility",
+        "performance",
+        "state-management",
+        "frontend"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/frontend-developer.md"
+    },
+    {
+      "name": "fullstack-engineer",
+      "title": "Delivers features end-to-end across frontend, backend, and database as one coherent design — UI, API, schema, and migration in a single vertical slice.",
+      "category": "01-engineering",
+      "model": "sonnet",
+      "tags": [
+        "fullstack",
+        "api",
+        "database",
+        "frontend",
+        "integration",
+        "end-to-end"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/fullstack-engineer.md"
+    },
+    {
+      "name": "game-audio-engineer",
+      "title": "Implements adaptive, interactive audio with FMOD or Wwise — middleware integration, dynamic mixing, and audio performance budgets.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "game-audio",
+        "fmod",
+        "wwise",
+        "adaptive-audio",
+        "audio-budget"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/13-game-development/game-audio-engineer.md"
+    },
+    {
+      "name": "game-designer",
+      "title": "Designs core mechanics, systems, loops, and economy balance, and authors the game design document (GDD).",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "game-design",
+        "mechanics",
+        "systems-design",
+        "economy-balance",
+        "gdd"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit"
+      ],
+      "path": "categories/13-game-development/game-designer.md"
+    },
+    {
+      "name": "game-economy-designer",
+      "title": "Designs progression, monetization, and virtual economies — currency loops, sinks and faucets, gacha/battle-pass models, and live-ops tuning that is fair and sustainable.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "game-economy",
+        "monetization",
+        "progression",
+        "virtual-currency",
+        "live-ops"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit"
+      ],
+      "path": "categories/13-game-development/game-economy-designer.md"
+    },
+    {
+      "name": "gameplay-programmer",
+      "title": "Implements core gameplay systems and mechanics in-engine — controllers, combat, abilities, AI behavior, and state machines that turn a design spec into playable feel.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "gameplay-programming",
+        "mechanics",
+        "state-machines",
+        "ai-behavior",
+        "game-feel"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/13-game-development/gameplay-programmer.md"
+    },
+    {
+      "name": "geo-citation-strategist",
+      "title": "Optimizes brand visibility and citations inside AI answer engines — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini — through Generative Engine Optimization (GEO) and Answer Engine Optimiz…",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "geo",
+        "aeo",
+        "ai-search",
+        "llm-citations",
+        "answer-engines",
+        "generative-search"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/geo-citation-strategist.md"
+    },
+    {
+      "name": "geographer",
+      "title": "Builds geographically coherent worlds — terrain, climate, hydrology, biomes, and settlement patterns that obey physical laws.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "geography",
+        "worldbuilding",
+        "climate",
+        "terrain",
+        "hydrology",
+        "settlement"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/geographer.md"
+    },
+    {
+      "name": "godot-engineer",
+      "title": "Builds Godot 4 games with idiomatic GDScript, signal-based decoupling, and clean node/scene composition.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "godot",
+        "gdscript",
+        "signals",
+        "node-composition",
+        "scene-tree"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/13-game-development/godot-engineer.md"
+    },
+    {
+      "name": "golang-pro",
+      "title": "Writes idiomatic, concurrent Go that leans on the standard library and respects the language's simplicity.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "go",
+        "golang",
+        "concurrency",
+        "goroutines",
+        "channels",
+        "error-handling"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/golang-pro.md"
+    },
+    {
+      "name": "graphql-architect",
+      "title": "Designs GraphQL schemas, federation, resolver performance, and the client-server contract.",
+      "category": "01-engineering",
+      "model": "sonnet",
+      "tags": [
+        "graphql",
+        "schema-design",
+        "federation",
+        "dataloader",
+        "query-cost"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/graphql-architect.md"
+    },
+    {
+      "name": "growth-hacker",
+      "title": "Designs viral loops, funnel experiments, and scalable acquisition channels for fast iteration on growth.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "growth",
+        "experimentation",
+        "funnels",
+        "viral-loops",
+        "retention",
+        "acquisition"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/growth-hacker.md"
+    },
+    {
+      "name": "historian",
+      "title": "Validates historical coherence and enriches period detail for fiction and research — chronology, material culture, social context, and causation.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "history",
+        "worldbuilding",
+        "period-detail",
+        "chronology",
+        "alternate-history",
+        "research"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/historian.md"
+    },
+    {
+      "name": "hr-onboarding-specialist",
+      "title": "Designs onboarding programs and structured first-90-day plans that get new hires productive and retained.",
+      "category": "12-business-finance-legal",
+      "model": "sonnet",
+      "tags": [
+        "onboarding",
+        "hr",
+        "first-90-days",
+        "employee-experience",
+        "retention"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/12-business-finance-legal/hr-onboarding-specialist.md"
+    },
+    {
+      "name": "image-prompt-engineer",
+      "title": "Crafts precise, well-structured prompts for AI image generators (Midjourney, DALL·E, Stable Diffusion, Imagen, Firefly) that translate a creative brief into reliable output.",
+      "category": "07-design-ux",
+      "model": "haiku",
+      "tags": [
+        "prompt-engineering",
+        "image-generation",
+        "midjourney",
+        "creative-brief",
+        "visual-style"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/image-prompt-engineer.md"
+    },
+    {
+      "name": "incident-responder",
+      "title": "Commands live production incidents — triage, mitigation, coordination, comms, and the postmortem.",
+      "category": "03-infrastructure-devops",
+      "model": "opus",
+      "tags": [
+        "incident-response",
+        "on-call",
+        "postmortem",
+        "triage",
+        "mitigation",
+        "severity"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/incident-responder.md"
+    },
+    {
+      "name": "incident-response-commander",
+      "title": "Leads security incident response end to end: triage, containment, eradication, recovery, and postmortem, following an established IR lifecycle.",
+      "category": "05-security-compliance",
+      "model": "opus",
+      "tags": [
+        "incident-response",
+        "dfir",
+        "containment",
+        "forensics",
+        "postmortem"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash",
+        "Write"
+      ],
+      "path": "categories/05-security-compliance/incident-response-commander.md"
+    },
+    {
+      "name": "inclusive-design-specialist",
+      "title": "Ensures designs are accessible, inclusive, and barrier-free across abilities, cultures, and contexts — meeting WCAG and designing for the full range of human diversity.",
+      "category": "07-design-ux",
+      "model": "sonnet",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "inclusive-design",
+        "a11y",
+        "assistive-technology"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/inclusive-design-specialist.md"
+    },
+    {
+      "name": "infrastructure-maintainer",
+      "title": "Keeps existing infrastructure healthy — patched, monitored, backed up, and cost-efficient — so it doesn't decay into an outage.",
+      "category": "03-infrastructure-devops",
+      "model": "sonnet",
+      "tags": [
+        "maintenance",
+        "patching",
+        "monitoring",
+        "backups",
+        "cost-optimization",
+        "upgrades"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/infrastructure-maintainer.md"
+    },
+    {
+      "name": "instagram-curator",
+      "title": "Builds Instagram growth through visual storytelling — Reels, carousels, grid aesthetic, and a content cadence tuned to the discovery algorithm.",
+      "category": "10-social-media",
+      "model": "sonnet",
+      "tags": [
+        "instagram",
+        "reels",
+        "visual-content",
+        "grid-aesthetic",
+        "growth"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/10-social-media/instagram-curator.md"
+    },
+    {
+      "name": "interaction-designer",
+      "title": "Designs how an interface behaves over time — motion, transitions, gestures, feedback, and state changes that feel responsive and right.",
+      "category": "07-design-ux",
+      "model": "sonnet",
+      "tags": [
+        "interaction-design",
+        "motion",
+        "transitions",
+        "animation",
+        "microinteractions"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/interaction-designer.md"
+    },
+    {
+      "name": "investment-researcher",
+      "title": "Conducts investment due diligence, valuation, and portfolio analysis.",
+      "category": "12-business-finance-legal",
+      "model": "opus",
+      "tags": [
+        "due-diligence",
+        "valuation",
+        "portfolio-analysis",
+        "investment-research",
+        "risk"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/12-business-finance-legal/investment-researcher.md"
+    },
+    {
+      "name": "iot-engineer",
+      "title": "Designs end-to-end IoT systems: edge devices, connectivity, ingestion, and fleet management at scale.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "iot",
+        "embedded",
+        "mqtt",
+        "edge-computing",
+        "firmware",
+        "fleet-management"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/15-specialized-domains/iot-engineer.md"
+    },
+    {
+      "name": "java-pro",
+      "title": "Writes modern, idiomatic Java and tunes the JVM for concurrency and throughput.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "java",
+        "jvm",
+        "concurrency",
+        "spring",
+        "records",
+        "performance"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/java-pro.md"
+    },
+    {
+      "name": "javascript-pro",
+      "title": "Writes and debugs modern JavaScript across browser and Node — ES modules, async patterns, and the event loop — without reaching for a framework.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "javascript",
+        "esm",
+        "async",
+        "event-loop",
+        "browser",
+        "nodejs"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/javascript-pro.md"
+    },
+    {
+      "name": "knowledge-synthesizer",
+      "title": "The fan-in step that merges outputs from many agents or sources into one coherent, de-duplicated, source-attributed answer.",
+      "category": "16-meta-orchestration",
+      "model": "sonnet",
+      "tags": [
+        "synthesis",
+        "deduplication",
+        "source-attribution",
+        "reconciliation",
+        "summarization"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/16-meta-orchestration/knowledge-synthesizer.md"
+    },
+    {
+      "name": "kotlin-pro",
+      "title": "Builds Android apps and Kotlin code with coroutines, Jetpack Compose, and strict null safety.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "kotlin",
+        "android",
+        "coroutines",
+        "jetpack-compose",
+        "null-safety",
+        "multiplatform"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/kotlin-pro.md"
+    },
+    {
+      "name": "kuaishou-strategist",
+      "title": "Grows on Kuaishou (快手) by leaning into its 老铁 (loyal-fan) trust economy and strength in 下沉市场 (lower-tier-city) markets.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "kuaishou",
+        "lower-tier-cities",
+        "live-commerce",
+        "trust-economy",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/kuaishou-strategist.md"
+    },
+    {
+      "name": "kubernetes-operator",
+      "title": "Deploys and operates workloads on Kubernetes — manifests, Helm/Kustomize, operators, autoscaling, and debugging broken pods.",
+      "category": "03-infrastructure-devops",
+      "model": "sonnet",
+      "tags": [
+        "kubernetes",
+        "helm",
+        "autoscaling",
+        "containers",
+        "manifests",
+        "debugging"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/kubernetes-operator.md"
+    },
+    {
+      "name": "legal-compliance-checker",
+      "title": "Reviews operations, products, and content for legal and regulatory compliance.",
+      "category": "12-business-finance-legal",
+      "model": "opus",
+      "tags": [
+        "compliance",
+        "regulatory",
+        "privacy",
+        "gdpr",
+        "risk-assessment"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/12-business-finance-legal/legal-compliance-checker.md"
+    },
+    {
+      "name": "level-designer",
+      "title": "Designs level layout, spatial flow, pacing, and encounter composition that teach mechanics and control tension.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "level-design",
+        "layout",
+        "pacing",
+        "encounters",
+        "flow"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit"
+      ],
+      "path": "categories/13-game-development/level-designer.md"
+    },
+    {
+      "name": "linkedin-content-creator",
+      "title": "Builds LinkedIn thought leadership and B2B personal brands through high-dwell posts, a clear point of view, and a feed strategy tuned to the relevance-and- dwell algorithm.",
+      "category": "10-social-media",
+      "model": "sonnet",
+      "tags": [
+        "linkedin",
+        "thought-leadership",
+        "b2b",
+        "personal-branding",
+        "content-strategy"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/10-social-media/linkedin-content-creator.md"
+    },
+    {
+      "name": "livestream-commerce-coach",
+      "title": "Coaches live-selling hosts (主播) and runs live-room (直播间) operations across Douyin, Taobao Live (淘宝直播), Kuaishou, and TikTok Shop.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "livestream-commerce",
+        "live-selling",
+        "host-coaching",
+        "conversion",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/livestream-commerce-coach.md"
+    },
+    {
+      "name": "llm-rag-engineer",
+      "title": "Designs retrieval-augmented generation systems end to end — chunking, embeddings, vector search, reranking, and measured retrieval quality.",
+      "category": "06-data-ai",
+      "model": "opus",
+      "tags": [
+        "rag",
+        "embeddings",
+        "vector-search",
+        "retrieval",
+        "chunking"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/llm-rag-engineer.md"
+    },
+    {
+      "name": "marketing-analytics-reporter",
+      "title": "Turns marketing data into clear insight — performance reporting, attribution, and the \"so what\" that drives the next decision.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "analytics",
+        "reporting",
+        "attribution",
+        "marketing-metrics",
+        "dashboards",
+        "roi"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/marketing-analytics-reporter.md"
+    },
+    {
+      "name": "microservices-architect",
+      "title": "Decomposes systems into services with sound boundaries, communication, resilience, and data ownership.",
+      "category": "01-engineering",
+      "model": "opus",
+      "tags": [
+        "microservices",
+        "distributed-systems",
+        "resilience",
+        "sagas",
+        "service-mesh"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/microservices-architect.md"
+    },
+    {
+      "name": "ml-engineer",
+      "title": "Develops, trains, and deploys machine-learning models into production serving — feature engineering, training loops, evaluation, and inference.",
+      "category": "06-data-ai",
+      "model": "opus",
+      "tags": [
+        "machine-learning",
+        "training",
+        "pytorch",
+        "feature-engineering",
+        "model-serving"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/ml-engineer.md"
+    },
+    {
+      "name": "mlops-engineer",
+      "title": "Builds the infrastructure that gets models to production and keeps them healthy — training/serving pipelines, model registry, monitoring, and CI/CD for ML.",
+      "category": "06-data-ai",
+      "model": "sonnet",
+      "tags": [
+        "mlops",
+        "ci-cd",
+        "model-registry",
+        "monitoring",
+        "drift",
+        "deployment"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/mlops-engineer.md"
+    },
+    {
+      "name": "mobile-app-builder",
+      "title": "Builds native iOS/Android and cross-platform (React Native/Flutter) apps that feel right on each platform.",
+      "category": "01-engineering",
+      "model": "sonnet",
+      "tags": [
+        "mobile",
+        "ios",
+        "android",
+        "react-native",
+        "flutter"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/mobile-app-builder.md"
+    },
+    {
+      "name": "model-qa-specialist",
+      "title": "Independently audits ML and LLM models before and after deployment — replicating results, probing calibration and fairness, stress-testing robustness, and checking monitoring.",
+      "category": "06-data-ai",
+      "model": "opus",
+      "tags": [
+        "model-audit",
+        "calibration",
+        "fairness",
+        "robustness",
+        "interpretability"
+      ],
+      "tools": [
+        "Read",
+        "Bash",
+        "Grep",
+        "Glob",
+        "WebSearch"
+      ],
+      "path": "categories/06-data-ai/model-qa-specialist.md"
+    },
+    {
+      "name": "multi-agent-coordinator",
+      "title": "The runtime conductor for many agents working at once.",
+      "category": "16-meta-orchestration",
+      "model": "opus",
+      "tags": [
+        "coordination",
+        "concurrency",
+        "dependency-graph",
+        "parallelism",
+        "conflict-resolution"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/16-meta-orchestration/multi-agent-coordinator.md"
+    },
+    {
+      "name": "multiplayer-netcode-engineer",
+      "title": "Builds game netcode — replication, server authority, client prediction, reconciliation, and lag compensation.",
+      "category": "13-game-development",
+      "model": "opus",
+      "tags": [
+        "netcode",
+        "replication",
+        "client-prediction",
+        "lag-compensation",
+        "authority"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/13-game-development/multiplayer-netcode-engineer.md"
+    },
+    {
+      "name": "narrative-designer",
+      "title": "Designs story structure, branching dialogue, lore, characters, and environmental narrative that is delivered through play rather than cutscenes.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "narrative-design",
+        "branching-dialogue",
+        "lore",
+        "worldbuilding",
+        "quests"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit"
+      ],
+      "path": "categories/13-game-development/narrative-designer.md"
+    },
+    {
+      "name": "narratologist",
+      "title": "Applies narrative theory to story structure, plot, and character arcs — pacing, causality, point of view, and the architecture beneath a story.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "narrative-theory",
+        "story-structure",
+        "plot",
+        "character-arc",
+        "pacing",
+        "fiction"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/narratologist.md"
+    },
+    {
+      "name": "network-engineer",
+      "title": "Designs and debugs networking — DNS, load balancing, CDN, VPC/VNet topology, TLS, and service-to-service connectivity.",
+      "category": "03-infrastructure-devops",
+      "model": "sonnet",
+      "tags": [
+        "networking",
+        "dns",
+        "load-balancing",
+        "cdn",
+        "tls",
+        "vpc"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/network-engineer.md"
+    },
+    {
+      "name": "nextjs-pro",
+      "title": "Builds and optimizes Next.js App Router applications — rendering strategy, caching, server actions, and edge/runtime choices.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "nextjs",
+        "app-router",
+        "caching",
+        "server-actions",
+        "rendering",
+        "edge"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/nextjs-pro.md"
+    },
+    {
+      "name": "nlp-engineer",
+      "title": "Builds NLP pipelines — named-entity recognition, text classification, information extraction, and embeddings — over real, messy text.",
+      "category": "06-data-ai",
+      "model": "sonnet",
+      "tags": [
+        "nlp",
+        "ner",
+        "text-classification",
+        "information-extraction",
+        "embeddings"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/nlp-engineer.md"
+    },
+    {
+      "name": "nodejs-pro",
+      "title": "Builds and tunes Node.js services with a deep grasp of the event loop, streams, clustering, and the libuv threadpool.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "nodejs",
+        "streams",
+        "event-loop",
+        "performance",
+        "clustering",
+        "backpressure"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/nodejs-pro.md"
+    },
+    {
+      "name": "observability-engineer",
+      "title": "Instruments systems for observability — metrics, logs, traces, dashboards, and alerts that are actionable.",
+      "category": "03-infrastructure-devops",
+      "model": "sonnet",
+      "tags": [
+        "observability",
+        "metrics",
+        "logging",
+        "tracing",
+        "prometheus",
+        "opentelemetry"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/observability-engineer.md"
+    },
+    {
+      "name": "outbound-strategist",
+      "title": "Designs research-driven, multi-channel prospecting sequences that earn replies without spamming.",
+      "category": "11-sales-revenue",
+      "model": "sonnet",
+      "tags": [
+        "outbound",
+        "prospecting",
+        "sequences",
+        "icp",
+        "multi-channel"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/11-sales-revenue/outbound-strategist.md"
+    },
+    {
+      "name": "paid-media-auditor",
+      "title": "Audits Google, Meta, and Microsoft ad accounts and produces a prioritized, evidence-backed list of fixes ranked by impact on spend efficiency.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "audit",
+        "paid-media",
+        "google-ads",
+        "meta-ads",
+        "wasted-spend",
+        "attribution"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/paid-media-auditor.md"
+    },
+    {
+      "name": "penetration-tester",
+      "title": "Conducts authorized offensive security testing to find and prove exploitable weaknesses, strictly within signed rules of engagement.",
+      "category": "05-security-compliance",
+      "model": "opus",
+      "tags": [
+        "penetration-testing",
+        "red-team",
+        "exploitation",
+        "owasp",
+        "mitre-attack"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash",
+        "Write"
+      ],
+      "path": "categories/05-security-compliance/penetration-tester.md"
+    },
+    {
+      "name": "performance-benchmarker",
+      "title": "Profiles, benchmarks, and optimizes system and application performance with rigorous measurement.",
+      "category": "04-quality-testing",
+      "model": "sonnet",
+      "tags": [
+        "performance",
+        "benchmarking",
+        "profiling",
+        "optimization",
+        "load-testing"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob",
+        "WebFetch"
+      ],
+      "path": "categories/04-quality-testing/performance-benchmarker.md"
+    },
+    {
+      "name": "php-laravel-pro",
+      "title": "Builds Laravel applications with modern PHP 8 and idiomatic Eloquent, queues, and testing.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "php",
+        "laravel",
+        "eloquent",
+        "queues",
+        "php8",
+        "testing"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/php-laravel-pro.md"
+    },
+    {
+      "name": "pinterest-strategist",
+      "title": "Drives discovery and referral traffic on Pinterest through pin SEO, keyword- rich boards, vertical pin design, and a strategy tuned to Pinterest as a visual search engine.",
+      "category": "10-social-media",
+      "model": "sonnet",
+      "tags": [
+        "pinterest",
+        "pin-seo",
+        "visual-discovery",
+        "referral-traffic",
+        "boards"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/10-social-media/pinterest-strategist.md"
+    },
+    {
+      "name": "pipeline-analyst",
+      "title": "Diagnoses pipeline health, deal velocity, conversion, and forecast accuracy from CRM data.",
+      "category": "11-sales-revenue",
+      "model": "sonnet",
+      "tags": [
+        "pipeline",
+        "forecast",
+        "velocity",
+        "conversion",
+        "sales-analytics"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep"
+      ],
+      "path": "categories/11-sales-revenue/pipeline-analyst.md"
+    },
+    {
+      "name": "platform-engineer",
+      "title": "Builds internal developer platforms and golden paths — self-service infrastructure, paved roads, and templates that let product teams ship without filing tickets.",
+      "category": "03-infrastructure-devops",
+      "model": "sonnet",
+      "tags": [
+        "platform-engineering",
+        "golden-paths",
+        "self-service",
+        "developer-experience",
+        "idp",
+        "paved-road"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/platform-engineer.md"
+    },
+    {
+      "name": "ppc-campaign-strategist",
+      "title": "Architects paid search, shopping, and Performance Max campaigns and allocates budget against profit goals across Google and Microsoft Ads.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "ppc",
+        "google-ads",
+        "performance-max",
+        "shopping",
+        "bidding",
+        "budget-allocation"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/ppc-campaign-strategist.md"
+    },
+    {
+      "name": "privacy-engineer",
+      "title": "Operationalizes GDPR and CCPA in systems: data mapping, minimization, lawful basis, consent, retention, and privacy by design.",
+      "category": "05-security-compliance",
+      "model": "sonnet",
+      "tags": [
+        "privacy",
+        "gdpr",
+        "ccpa",
+        "data-protection",
+        "privacy-by-design"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash",
+        "Write"
+      ],
+      "path": "categories/05-security-compliance/privacy-engineer.md"
+    },
+    {
+      "name": "private-domain-operator",
+      "title": "Builds 私域 (private-domain) traffic ecosystems on WeCom (企业微信), personal WeChat, 社群 (community groups), and 朋友圈 (Moments) — turning one-time buyers into owned, repeat-purchasing audiences via SCRM.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "private-domain",
+        "wecom",
+        "scrm",
+        "community",
+        "retention",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/private-domain-operator.md"
+    },
+    {
+      "name": "procurement-vendor-manager",
+      "title": "Runs sourcing, vendor evaluation, contract negotiation, and total-cost-of- ownership analysis.",
+      "category": "12-business-finance-legal",
+      "model": "sonnet",
+      "tags": [
+        "procurement",
+        "vendor-management",
+        "sourcing",
+        "tco-analysis",
+        "negotiation"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/12-business-finance-legal/procurement-vendor-manager.md"
+    },
+    {
+      "name": "product-manager",
+      "title": "Owns the product lifecycle end to end — discovery, definition, delivery, and the outcomes that follow.",
+      "category": "08-product-management",
+      "model": "opus",
+      "tags": [
+        "product-management",
+        "discovery",
+        "prioritization",
+        "jtbd",
+        "delivery"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/product-manager.md"
+    },
+    {
+      "name": "product-strategist",
+      "title": "Sets product strategy, positioning, and the long-range vision that tells the team where to play and how to win.",
+      "category": "08-product-management",
+      "model": "opus",
+      "tags": [
+        "strategy",
+        "positioning",
+        "vision",
+        "north-star",
+        "market-analysis"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/product-strategist.md"
+    },
+    {
+      "name": "project-shepherd",
+      "title": "Coordinates a cross-functional project from kickoff to delivery, keeping scope, dependencies, and people in sync.",
+      "category": "08-product-management",
+      "model": "sonnet",
+      "tags": [
+        "project-coordination",
+        "delivery",
+        "dependencies",
+        "risk",
+        "cross-functional"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/project-shepherd.md"
+    },
+    {
+      "name": "prompt-engineer",
+      "title": "Designs, evaluates, and optimizes prompts as testable, versioned artifacts — not one-off strings.",
+      "category": "06-data-ai",
+      "model": "sonnet",
+      "tags": [
+        "prompting",
+        "llm",
+        "evals",
+        "optimization",
+        "structured-output"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/prompt-engineer.md"
+    },
+    {
+      "name": "proposal-strategist",
+      "title": "Turns RFPs and opportunities into winning proposals built on win themes and the buyer's decision criteria.",
+      "category": "11-sales-revenue",
+      "model": "sonnet",
+      "tags": [
+        "proposals",
+        "rfp",
+        "win-themes",
+        "value-proposition",
+        "competitive-strategy"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/11-sales-revenue/proposal-strategist.md"
+    },
+    {
+      "name": "psychologist",
+      "title": "Builds psychologically credible characters and behavior models for fiction and research — motivation, trauma, defense mechanisms, and consistent inner life grounded in real psychology.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "psychology",
+        "character-development",
+        "motivation",
+        "behavior",
+        "trauma",
+        "worldbuilding"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/psychologist.md"
+    },
+    {
+      "name": "python-pro",
+      "title": "Writes idiomatic, type-annotated, production-grade Python and fixes Python that is slow, untyped, or un-Pythonic.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "python",
+        "asyncio",
+        "typing",
+        "packaging",
+        "performance",
+        "pytest"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/python-pro.md"
+    },
+    {
+      "name": "qa-test-engineer",
+      "title": "Designs test strategy and runs manual and exploratory QA across a product.",
+      "category": "04-quality-testing",
+      "model": "sonnet",
+      "tags": [
+        "qa",
+        "test-strategy",
+        "exploratory-testing",
+        "test-plan",
+        "release-signoff"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/04-quality-testing/qa-test-engineer.md"
+    },
+    {
+      "name": "quant-researcher",
+      "title": "Researches quantitative trading strategies and risk models with statistical discipline and honest backtesting.",
+      "category": "15-specialized-domains",
+      "model": "opus",
+      "tags": [
+        "quantitative-finance",
+        "trading-strategies",
+        "backtesting",
+        "risk-modeling",
+        "factors",
+        "statistics"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/quant-researcher.md"
+    },
+    {
+      "name": "rapid-prototyper",
+      "title": "Builds MVPs and proofs-of-concept fast to validate an idea before anyone invests in production.",
+      "category": "01-engineering",
+      "model": "sonnet",
+      "tags": [
+        "mvp",
+        "prototype",
+        "poc",
+        "spike",
+        "validation"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/rapid-prototyper.md"
+    },
+    {
+      "name": "react-pro",
+      "title": "Builds and fixes React UIs with a correct mental model of the rendering cycle, hooks, and modern data flow.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "react",
+        "hooks",
+        "server-components",
+        "state-management",
+        "performance"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/react-pro.md"
+    },
+    {
+      "name": "reality-checker",
+      "title": "A hard-nosed verifier that refuses to accept \"it works\" without reproducible evidence.",
+      "category": "04-quality-testing",
+      "model": "sonnet",
+      "tags": [
+        "verification",
+        "skepticism",
+        "evidence",
+        "qa-signoff",
+        "anti-regression"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/04-quality-testing/reality-checker.md"
+    },
+    {
+      "name": "realtime-systems-engineer",
+      "title": "Designs low-latency, concurrent, event-driven systems where timing is part of correctness.",
+      "category": "01-engineering",
+      "model": "opus",
+      "tags": [
+        "real-time",
+        "low-latency",
+        "concurrency",
+        "event-driven",
+        "backpressure"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/realtime-systems-engineer.md"
+    },
+    {
+      "name": "recommendation-systems-engineer",
+      "title": "Builds recommenders and ranking/personalization systems — candidate generation, scoring, ranking, and the feedback loops that make them better or worse over time.",
+      "category": "06-data-ai",
+      "model": "opus",
+      "tags": [
+        "recommenders",
+        "ranking",
+        "personalization",
+        "collaborative-filtering",
+        "embeddings"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/06-data-ai/recommendation-systems-engineer.md"
+    },
+    {
+      "name": "recruiter",
+      "title": "Runs the hiring pipeline end to end: sourcing, screening, interview design, and candidate evaluation.",
+      "category": "12-business-finance-legal",
+      "model": "sonnet",
+      "tags": [
+        "recruiting",
+        "sourcing",
+        "screening",
+        "interviewing",
+        "hiring-pipeline"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/12-business-finance-legal/recruiter.md"
+    },
+    {
+      "name": "reddit-community-builder",
+      "title": "Builds presence and trust on Reddit through authentic, value-first participation that respects each subreddit's culture and rules.",
+      "category": "10-social-media",
+      "model": "sonnet",
+      "tags": [
+        "reddit",
+        "community",
+        "authenticity",
+        "subreddit-norms",
+        "value-first"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/10-social-media/reddit-community-builder.md"
+    },
+    {
+      "name": "revenue-operations-analyst",
+      "title": "Owns RevOps — CRM data integrity, sales process design, funnel instrumentation, and pipeline intelligence.",
+      "category": "11-sales-revenue",
+      "model": "sonnet",
+      "tags": [
+        "revops",
+        "crm",
+        "sales-process",
+        "funnel-metrics",
+        "data-quality"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep"
+      ],
+      "path": "categories/11-sales-revenue/revenue-operations-analyst.md"
+    },
+    {
+      "name": "roadmap-planner",
+      "title": "Builds and sequences product roadmaps across quarters and aligns the stakeholders who depend on them.",
+      "category": "08-product-management",
+      "model": "sonnet",
+      "tags": [
+        "roadmap",
+        "planning",
+        "sequencing",
+        "stakeholder-alignment",
+        "okrs"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/roadmap-planner.md"
+    },
+    {
+      "name": "roblox-engineer",
+      "title": "Builds Roblox experiences in Luau with a correct client-server architecture, RemoteEvent/Function boundaries, and DataStore persistence.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "roblox",
+        "luau",
+        "client-server",
+        "datastore",
+        "remote-events"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/13-game-development/roblox-engineer.md"
+    },
+    {
+      "name": "ruby-rails-pro",
+      "title": "Builds Ruby on Rails applications the Rails way — convention over configuration, idiomatic ActiveRecord, reliable background jobs, and strong tests.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "ruby",
+        "rails",
+        "activerecord",
+        "background-jobs",
+        "testing",
+        "convention"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/ruby-rails-pro.md"
+    },
+    {
+      "name": "rust-pro",
+      "title": "Writes safe, idiomatic Rust that satisfies the borrow checker and leans on zero-cost abstractions.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "rust",
+        "ownership",
+        "borrow-checker",
+        "traits",
+        "async",
+        "safety"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/rust-pro.md"
+    },
+    {
+      "name": "sales-coach",
+      "title": "Develops sales reps through call coaching, deal reviews, and pipeline inspection.",
+      "category": "11-sales-revenue",
+      "model": "sonnet",
+      "tags": [
+        "coaching",
+        "call-review",
+        "rep-development",
+        "pipeline-review",
+        "enablement"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/11-sales-revenue/sales-coach.md"
+    },
+    {
+      "name": "sales-engineer",
+      "title": "Owns the technical pre-sales motion — discovery, tailored demos, proofs of concept, and the technical win.",
+      "category": "11-sales-revenue",
+      "model": "sonnet",
+      "tags": [
+        "pre-sales",
+        "demo",
+        "proof-of-concept",
+        "technical-win",
+        "discovery"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/11-sales-revenue/sales-engineer.md"
+    },
+    {
+      "name": "secrets-management-engineer",
+      "title": "Manages secrets and keys across the lifecycle: vaulting, rotation, least- privilege access, and leak prevention.",
+      "category": "05-security-compliance",
+      "model": "sonnet",
+      "tags": [
+        "secrets-management",
+        "key-rotation",
+        "vault",
+        "least-privilege",
+        "leak-prevention"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash",
+        "Write"
+      ],
+      "path": "categories/05-security-compliance/secrets-management-engineer.md"
+    },
+    {
+      "name": "security-engineer",
+      "title": "Owns application security: threat modeling, secure design review, and secure code review for authorized, defensive engineering work.",
+      "category": "05-security-compliance",
+      "model": "opus",
+      "tags": [
+        "appsec",
+        "threat-modeling",
+        "secure-code-review",
+        "owasp",
+        "stride"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash",
+        "Write"
+      ],
+      "path": "categories/05-security-compliance/security-engineer.md"
+    },
+    {
+      "name": "seo-specialist",
+      "title": "Drives organic growth through technical SEO, on-page optimization, and content architecture that ranks in classic search engines.",
+      "category": "09-marketing-growth",
+      "model": "sonnet",
+      "tags": [
+        "seo",
+        "technical-seo",
+        "keyword-research",
+        "on-page",
+        "schema",
+        "core-web-vitals"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/09-marketing-growth/seo-specialist.md"
+    },
+    {
+      "name": "shader-developer",
+      "title": "Writes shaders and real-time visual effects across engines — HLSL/GLSL/WGSL and node graphs — balancing look against GPU cost.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "shaders",
+        "hlsl",
+        "glsl",
+        "vfx",
+        "gpu-optimization"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/13-game-development/shader-developer.md"
+    },
+    {
+      "name": "site-reliability-engineer",
+      "title": "Owns production reliability through SLOs, error budgets, capacity planning, and systematic toil reduction.",
+      "category": "03-infrastructure-devops",
+      "model": "opus",
+      "tags": [
+        "sre",
+        "slo",
+        "error-budget",
+        "reliability",
+        "capacity-planning",
+        "toil"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/site-reliability-engineer.md"
+    },
+    {
+      "name": "social-media-strategist",
+      "title": "Owns cross-platform social strategy — channel selection, content systems, campaign orchestration, and turning one idea into platform-native variants.",
+      "category": "10-social-media",
+      "model": "sonnet",
+      "tags": [
+        "social-strategy",
+        "cross-platform",
+        "campaigns",
+        "content-systems",
+        "orchestration"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/10-social-media/social-media-strategist.md"
+    },
+    {
+      "name": "software-architect",
+      "title": "Owns system-wide architecture, design patterns, technology selection, and the decision records that justify them.",
+      "category": "01-engineering",
+      "model": "opus",
+      "tags": [
+        "architecture",
+        "design-patterns",
+        "adr",
+        "system-design",
+        "tech-selection"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/01-engineering/software-architect.md"
+    },
+    {
+      "name": "solidity-smart-contract-engineer",
+      "title": "Writes, audits, and hardens Solidity smart contracts for EVM chains with an obsession for security and gas.",
+      "category": "15-specialized-domains",
+      "model": "opus",
+      "tags": [
+        "solidity",
+        "smart-contracts",
+        "evm",
+        "security",
+        "gas-optimization",
+        "defi"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/15-specialized-domains/solidity-smart-contract-engineer.md"
+    },
+    {
+      "name": "sprint-prioritizer",
+      "title": "Plans the next sprint and orders the backlog with explicit, defensible prioritization frameworks.",
+      "category": "08-product-management",
+      "model": "sonnet",
+      "tags": [
+        "sprint-planning",
+        "prioritization",
+        "backlog",
+        "rice",
+        "capacity"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/sprint-prioritizer.md"
+    },
+    {
+      "name": "sql-pro",
+      "title": "Writes and optimizes SQL across dialects — query tuning, indexing, window functions, and CTEs — by reading the execution plan, not guessing.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "sql",
+        "query-optimization",
+        "indexing",
+        "window-functions",
+        "ctes",
+        "databases"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/sql-pro.md"
+    },
+    {
+      "name": "studio-operations",
+      "title": "Optimizes the day-to-day operations and team processes that make delivery repeatable — rituals, tooling, handoffs, and the metrics that reveal where work gets stuck.",
+      "category": "08-product-management",
+      "model": "sonnet",
+      "tags": [
+        "operations",
+        "process-improvement",
+        "team-process",
+        "efficiency",
+        "tooling"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/studio-operations.md"
+    },
+    {
+      "name": "studio-producer",
+      "title": "Orchestrates a portfolio of projects and the resourcing across them — who works on what, when, and where the constraints bind.",
+      "category": "08-product-management",
+      "model": "sonnet",
+      "tags": [
+        "program-management",
+        "resourcing",
+        "capacity",
+        "portfolio",
+        "orchestration"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/studio-producer.md"
+    },
+    {
+      "name": "swift-pro",
+      "title": "Builds iOS and Apple-platform apps in modern Swift — SwiftUI, structured concurrency, and ARC-aware memory management.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "swift",
+        "swiftui",
+        "ios",
+        "concurrency",
+        "memory",
+        "apple"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/swift-pro.md"
+    },
+    {
+      "name": "task-decomposer",
+      "title": "The planner that breaks a big, fuzzy goal into an ordered, dependency-aware set of well-scoped subtasks.",
+      "category": "16-meta-orchestration",
+      "model": "sonnet",
+      "tags": [
+        "decomposition",
+        "planning",
+        "dependencies",
+        "task-graph",
+        "scoping"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/16-meta-orchestration/task-decomposer.md"
+    },
+    {
+      "name": "tax-strategist",
+      "title": "Plans tax position and keeps a business compliant across jurisdictions.",
+      "category": "12-business-finance-legal",
+      "model": "opus",
+      "tags": [
+        "tax-strategy",
+        "compliance",
+        "multi-jurisdiction",
+        "deductions",
+        "entity-structure"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/12-business-finance-legal/tax-strategist.md"
+    },
+    {
+      "name": "tech-lead-orchestrator",
+      "title": "The technical delivery lead for work that spans multiple engineering agents.",
+      "category": "16-meta-orchestration",
+      "model": "opus",
+      "tags": [
+        "engineering",
+        "delivery",
+        "sequencing",
+        "code-review",
+        "technical-planning"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/16-meta-orchestration/tech-lead-orchestrator.md"
+    },
+    {
+      "name": "technical-artist",
+      "title": "Bridges art and engineering — authoring shaders, VFX, asset pipelines, and performance budgets so art ships at frame rate.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "technical-art",
+        "shaders",
+        "vfx",
+        "pipeline",
+        "performance-budgets"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/13-game-development/technical-artist.md"
+    },
+    {
+      "name": "technical-writer",
+      "title": "Writes developer-facing documentation — API references, guides, tutorials, and READMEs — that engineers can actually follow.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "documentation",
+        "technical-writing",
+        "api-docs",
+        "tutorials",
+        "developer-experience"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/technical-writer.md"
+    },
+    {
+      "name": "terraform-engineer",
+      "title": "Manages infrastructure as code with Terraform/OpenTofu — modules, state, drift, and safe plan/apply reviews.",
+      "category": "03-infrastructure-devops",
+      "model": "sonnet",
+      "tags": [
+        "terraform",
+        "opentofu",
+        "infrastructure-as-code",
+        "state",
+        "modules",
+        "drift"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/03-infrastructure-devops/terraform-engineer.md"
+    },
+    {
+      "name": "test-automation-engineer",
+      "title": "Builds automated test suites and frameworks with meaningful coverage.",
+      "category": "04-quality-testing",
+      "model": "sonnet",
+      "tags": [
+        "test-automation",
+        "unit-testing",
+        "integration-testing",
+        "coverage",
+        "ci"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "MultiEdit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/04-quality-testing/test-automation-engineer.md"
+    },
+    {
+      "name": "test-results-analyzer",
+      "title": "Turns raw test results, flakiness, and quality signals into actionable insight.",
+      "category": "04-quality-testing",
+      "model": "sonnet",
+      "tags": [
+        "test-analysis",
+        "flakiness",
+        "ci",
+        "metrics",
+        "quality-trends"
+      ],
+      "tools": [
+        "Read",
+        "Bash",
+        "Grep",
+        "Glob",
+        "WebFetch"
+      ],
+      "path": "categories/04-quality-testing/test-results-analyzer.md"
+    },
+    {
+      "name": "threat-detection-engineer",
+      "title": "Builds and tunes SIEM detections, measures MITRE ATT&CK coverage, and runs threat hunts using detection-as-code.",
+      "category": "05-security-compliance",
+      "model": "opus",
+      "tags": [
+        "detection-engineering",
+        "siem",
+        "mitre-attack",
+        "threat-hunting",
+        "detection-as-code"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob",
+        "Bash",
+        "Write"
+      ],
+      "path": "categories/05-security-compliance/threat-detection-engineer.md"
+    },
+    {
+      "name": "tiktok-strategist",
+      "title": "Engineers TikTok growth around hooks, watch-time, and trend-jacking — the only levers the For You algorithm actually rewards.",
+      "category": "10-social-media",
+      "model": "sonnet",
+      "tags": [
+        "tiktok",
+        "short-form-video",
+        "hooks",
+        "watch-time",
+        "trends"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/10-social-media/tiktok-strategist.md"
+    },
+    {
+      "name": "trend-researcher",
+      "title": "Researches markets, competitors, and emerging trends to surface product opportunities and threats.",
+      "category": "08-product-management",
+      "model": "sonnet",
+      "tags": [
+        "market-research",
+        "trends",
+        "competitive-analysis",
+        "opportunity",
+        "sizing"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/trend-researcher.md"
+    },
+    {
+      "name": "twitter-engager",
+      "title": "Builds an X/Twitter audience through real-time engagement, sharp threads, and reply-driven reach.",
+      "category": "10-social-media",
+      "model": "sonnet",
+      "tags": [
+        "twitter",
+        "x",
+        "threads",
+        "real-time-engagement",
+        "audience-building"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/10-social-media/twitter-engager.md"
+    },
+    {
+      "name": "typescript-pro",
+      "title": "Designs and fixes advanced TypeScript: type-level programming, strict configurations, generics, and inference that catches bugs at compile time.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "typescript",
+        "type-system",
+        "generics",
+        "inference",
+        "strict-mode"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/typescript-pro.md"
+    },
+    {
+      "name": "ui-designer",
+      "title": "Designs the visual layer of an interface — layout, components, type, color, and spacing — into pixel-precise, consistent, accessible screens.",
+      "category": "07-design-ux",
+      "model": "sonnet",
+      "tags": [
+        "ui-design",
+        "visual-design",
+        "components",
+        "design-tokens",
+        "accessibility"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/ui-designer.md"
+    },
+    {
+      "name": "unity-engineer",
+      "title": "Builds Unity games with data-driven, decoupled C# architecture — ScriptableObjects, clean component composition, and the right update/job model.",
+      "category": "13-game-development",
+      "model": "sonnet",
+      "tags": [
+        "unity",
+        "csharp",
+        "scriptableobjects",
+        "dots",
+        "game-architecture"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/13-game-development/unity-engineer.md"
+    },
+    {
+      "name": "unreal-engineer",
+      "title": "Builds Unreal Engine 5 games across the C++/Blueprint continuum — Gameplay Ability System, replication, Nanite/Lumen, and the right native-vs-visual-script split.",
+      "category": "13-game-development",
+      "model": "opus",
+      "tags": [
+        "unreal-engine",
+        "cpp",
+        "blueprint",
+        "gameplay-ability-system",
+        "replication"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/13-game-development/unreal-engineer.md"
+    },
+    {
+      "name": "user-story-writer",
+      "title": "Writes clear, testable user stories with crisp acceptance criteria from a feature idea or spec.",
+      "category": "08-product-management",
+      "model": "haiku",
+      "tags": [
+        "user-stories",
+        "acceptance-criteria",
+        "backlog",
+        "requirements",
+        "gherkin"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit"
+      ],
+      "path": "categories/08-product-management/user-story-writer.md"
+    },
+    {
+      "name": "ux-architect",
+      "title": "Owns the structural layer of a product: information architecture, navigation, user flows, and interaction foundations — the skeleton the visual design hangs on.",
+      "category": "07-design-ux",
+      "model": "sonnet",
+      "tags": [
+        "information-architecture",
+        "user-flows",
+        "navigation",
+        "interaction-design",
+        "wireframes"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/ux-architect.md"
+    },
+    {
+      "name": "ux-copywriter",
+      "title": "Writes the words inside the product — microcopy, labels, buttons, errors, empty states, and onboarding — in a consistent, clear product voice.",
+      "category": "07-design-ux",
+      "model": "sonnet",
+      "tags": [
+        "ux-writing",
+        "microcopy",
+        "content-design",
+        "voice-tone",
+        "product-content"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/ux-copywriter.md"
+    },
+    {
+      "name": "ux-researcher",
+      "title": "Plans and runs user research and usability testing, then turns raw observation into decision-ready insight.",
+      "category": "07-design-ux",
+      "model": "sonnet",
+      "tags": [
+        "user-research",
+        "usability-testing",
+        "interviews",
+        "synthesis",
+        "personas"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/ux-researcher.md"
+    },
+    {
+      "name": "visionos-spatial-engineer",
+      "title": "Builds native visionOS apps for Apple Vision Pro using SwiftUI, RealityKit, and ARKit — windows, volumes, and full immersive spaces.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "visionos",
+        "vision-pro",
+        "realitykit",
+        "swiftui",
+        "arkit",
+        "spatial-computing"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/15-specialized-domains/visionos-spatial-engineer.md"
+    },
+    {
+      "name": "visual-regression-tester",
+      "title": "Catches unintended visual changes through screenshot diffing against known-good baselines.",
+      "category": "04-quality-testing",
+      "model": "haiku",
+      "tags": [
+        "visual-regression",
+        "screenshot-diff",
+        "ui-testing",
+        "design-system",
+        "css"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/04-quality-testing/visual-regression-tester.md"
+    },
+    {
+      "name": "visual-storyteller",
+      "title": "Turns complex information into clear, compelling visual narratives — presentation decks, data stories, explainer diagrams, and pitch flows.",
+      "category": "07-design-ux",
+      "model": "sonnet",
+      "tags": [
+        "storytelling",
+        "presentations",
+        "data-visualization",
+        "narrative",
+        "infographics"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/visual-storyteller.md"
+    },
+    {
+      "name": "vue-pro",
+      "title": "Builds Vue 3 applications with the Composition API, a correct reactivity mental model, Pinia state, and tuned rendering.",
+      "category": "02-languages-frameworks",
+      "model": "sonnet",
+      "tags": [
+        "vue",
+        "composition-api",
+        "reactivity",
+        "pinia",
+        "performance"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/02-languages-frameworks/vue-pro.md"
+    },
+    {
+      "name": "web3-architect",
+      "title": "Designs decentralized system architecture: protocol structure, token and incentive design, governance, and cross-chain topology — before any contract is written.",
+      "category": "15-specialized-domains",
+      "model": "opus",
+      "tags": [
+        "web3",
+        "tokenomics",
+        "defi",
+        "governance",
+        "protocol-design",
+        "cross-chain"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/15-specialized-domains/web3-architect.md"
+    },
+    {
+      "name": "wechat-mini-program-developer",
+      "title": "Builds WeChat Mini Programs (微信小程序) and integrates them across the WeChat ecosystem — login/auth, WeChat Pay, subscribe messages, and Official Account / WeCom linkage.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "wechat",
+        "mini-program",
+        "wechat-pay",
+        "integration",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/14-regional-markets/wechat-mini-program-developer.md"
+    },
+    {
+      "name": "wechat-official-account-manager",
+      "title": "Runs WeChat Official Accounts (公众号) — content strategy, subscriber growth, and the 服务号 vs.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "wechat",
+        "official-account",
+        "content-marketing",
+        "subscriber-growth",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/wechat-official-account-manager.md"
+    },
+    {
+      "name": "weibo-strategist",
+      "title": "Drives reach on Weibo (微博) through 热搜 (trending topics), 超话 (Super Topics), and the 粉丝经济 (fan economy).",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "weibo",
+        "trending-topics",
+        "super-topics",
+        "fan-economy",
+        "social-pr",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/weibo-strategist.md"
+    },
+    {
+      "name": "whimsy-injector",
+      "title": "Adds delight, personality, and memorable micro-interactions to an interface — purposefully, never at the expense of usability.",
+      "category": "07-design-ux",
+      "model": "sonnet",
+      "tags": [
+        "microinteractions",
+        "delight",
+        "animation",
+        "personality",
+        "empty-states"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/07-design-ux/whimsy-injector.md"
+    },
+    {
+      "name": "workflow-architect",
+      "title": "Maps an end-to-end workflow into a complete tree of states, branches, and edge cases, then turns it into a build-ready specification.",
+      "category": "08-product-management",
+      "model": "opus",
+      "tags": [
+        "workflow",
+        "process-mapping",
+        "state-machine",
+        "specification",
+        "edge-cases"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch"
+      ],
+      "path": "categories/08-product-management/workflow-architect.md"
+    },
+    {
+      "name": "workflow-coordinator",
+      "title": "The executor of a defined, multi-step workflow.",
+      "category": "16-meta-orchestration",
+      "model": "opus",
+      "tags": [
+        "workflow",
+        "phase-gates",
+        "handoff-contracts",
+        "pipeline",
+        "execution"
+      ],
+      "tools": [
+        "Read",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/16-meta-orchestration/workflow-coordinator.md"
+    },
+    {
+      "name": "worldbuilding-architect",
+      "title": "Designs coherent fictional worlds end to end — lore, magic/tech systems, history, factions, and the consistency rules that bind them.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "worldbuilding",
+        "lore",
+        "magic-systems",
+        "consistency",
+        "fiction",
+        "world-bible"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/15-specialized-domains/worldbuilding-architect.md"
+    },
+    {
+      "name": "xiaohongshu-specialist",
+      "title": "Plans Xiaohongshu (小红书 / RED) marketing — 种草 (seeding) notes, lifestyle content, and community-driven discovery for lifestyle, beauty, fashion, travel, and F&B brands.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "xiaohongshu",
+        "red",
+        "content-seeding",
+        "lifestyle-marketing",
+        "koc",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/xiaohongshu-specialist.md"
+    },
+    {
+      "name": "xr-immersive-developer",
+      "title": "Builds immersive AR/VR experiences across WebXR, Unity, and Unreal — with a relentless focus on frame rate, comfort, and spatial interaction.",
+      "category": "15-specialized-domains",
+      "model": "sonnet",
+      "tags": [
+        "webxr",
+        "ar",
+        "vr",
+        "three-js",
+        "unity",
+        "spatial-computing"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Bash",
+        "Grep",
+        "Glob"
+      ],
+      "path": "categories/15-specialized-domains/xr-immersive-developer.md"
+    },
+    {
+      "name": "youtube-video-optimizer",
+      "title": "Maximizes YouTube performance through click-through rate, audience retention, packaging (titles/thumbnails), chapters, and search SEO.",
+      "category": "10-social-media",
+      "model": "sonnet",
+      "tags": [
+        "youtube",
+        "ctr",
+        "retention",
+        "thumbnails",
+        "video-seo"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/10-social-media/youtube-video-optimizer.md"
+    },
+    {
+      "name": "zhihu-strategist",
+      "title": "Builds authority on Zhihu (知乎) through high-quality 回答 (answers), 专栏 (columns), and knowledge marketing that earns 赞同 (upvotes) and long-tail search traffic.",
+      "category": "14-regional-markets",
+      "model": "sonnet",
+      "tags": [
+        "zhihu",
+        "qa-marketing",
+        "authority-building",
+        "knowledge-marketing",
+        "china"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "WebSearch",
+        "WebFetch"
+      ],
+      "path": "categories/14-regional-markets/zhihu-strategist.md"
     }
   ]
 }
