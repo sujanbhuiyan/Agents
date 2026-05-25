@@ -1,0 +1,18 @@
+{
+  "name": "quality-testing-agents",
+  "version": "1.0.0",
+  "description": "Quality & Testing agents — Testing, code review, performance, and release confidence.",
+  "author": {
+    "name": "Sujan Bhuiyan",
+    "url": "https://github.com/sujanbhuiyan"
+  },
+  "homepage": "https://github.com/sujanbhuiyan/Agents",
+  "repository": "https://github.com/sujanbhuiyan/Agents",
+  "license": "MIT",
+  "keywords": [
+    "quality-testing",
+    "ai-agents",
+    "claude-code",
+    "subagents"
+  ]
+}

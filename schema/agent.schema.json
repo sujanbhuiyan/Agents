@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/sujanbhuiyan/Agents/schema/agent.schema.json",
+  "title": "Agent frontmatter",
+  "description": "Schema for the YAML frontmatter of a canonical agent file (categories/<id>/<name>.md). The `name`, `description`, `model`, and `tools` fields are read by Claude Code; the rest are repo-local metadata used to generate the catalog and are ignored by runtimes.",
+  "type": "object",
+  "required": ["name", "description", "model", "category", "tags"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Globally unique kebab-case identifier. MUST equal the filename (without .md)."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 40,
+      "description": "When to invoke this agent, in natural language. Drives auto-delegation. Should include trigger phrasing ('Use when…', 'MUST BE USED…') and at least one <example>…<commentary> block."
+    },
+    "model": {
+      "type": "string",
+      "description": "Model tier. Use an alias or a full model id.",
+      "anyOf": [
+        { "enum": ["opus", "sonnet", "haiku", "inherit"] },
+        { "pattern": "^claude-[a-z0-9-]+$" }
+      ]
+    },
+    "tools": {
+      "type": "string",
+      "description": "Optional comma-separated tool allowlist (e.g. 'Read, Write, Edit, Bash'). Omit to inherit all tools from the calling context."
+    },
+    "category": {
+      "type": "string",
+      "description": "Category id; MUST match the parent folder name in categories/.",
+      "pattern": "^[0-9]{2}-[a-z-]+$"
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "description": "Lowercase tags powering search and discovery."
+    },
+    "color": {
+      "type": "string",
+      "description": "Optional UI hint (inherits the category color by default)."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "Optional semver for the agent definition."
+    }
+  }
+}

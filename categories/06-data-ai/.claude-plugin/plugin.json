@@ -1,0 +1,18 @@
+{
+  "name": "data-ai-agents",
+  "version": "1.0.0",
+  "description": "Data & AI agents — Data engineering, analytics, machine learning, and applied AI systems.",
+  "author": {
+    "name": "Sujan Bhuiyan",
+    "url": "https://github.com/sujanbhuiyan"
+  },
+  "homepage": "https://github.com/sujanbhuiyan/Agents",
+  "repository": "https://github.com/sujanbhuiyan/Agents",
+  "license": "MIT",
+  "keywords": [
+    "data-ai",
+    "ai-agents",
+    "claude-code",
+    "subagents"
+  ]
+}

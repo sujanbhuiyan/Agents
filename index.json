@@ -1,0 +1,127 @@
+{
+  "generatedAt": "2026-05-25",
+  "total": 1,
+  "categories": [
+    {
+      "id": "01-engineering",
+      "title": "Engineering",
+      "emoji": "🏗️",
+      "count": 1
+    },
+    {
+      "id": "02-languages-frameworks",
+      "title": "Languages & Frameworks",
+      "emoji": "🔤",
+      "count": 0
+    },
+    {
+      "id": "03-infrastructure-devops",
+      "title": "Infrastructure & DevOps",
+      "emoji": "⚙️",
+      "count": 0
+    },
+    {
+      "id": "04-quality-testing",
+      "title": "Quality & Testing",
+      "emoji": "🧪",
+      "count": 0
+    },
+    {
+      "id": "05-security-compliance",
+      "title": "Security & Compliance",
+      "emoji": "🛡️",
+      "count": 0
+    },
+    {
+      "id": "06-data-ai",
+      "title": "Data & AI",
+      "emoji": "🧠",
+      "count": 0
+    },
+    {
+      "id": "07-design-ux",
+      "title": "Design & UX",
+      "emoji": "🎨",
+      "count": 0
+    },
+    {
+      "id": "08-product-management",
+      "title": "Product & Management",
+      "emoji": "🗺️",
+      "count": 0
+    },
+    {
+      "id": "09-marketing-growth",
+      "title": "Marketing & Growth",
+      "emoji": "📈",
+      "count": 0
+    },
+    {
+      "id": "10-social-media",
+      "title": "Social Media",
+      "emoji": "📣",
+      "count": 0
+    },
+    {
+      "id": "11-sales-revenue",
+      "title": "Sales & Revenue",
+      "emoji": "💰",
+      "count": 0
+    },
+    {
+      "id": "12-business-finance-legal",
+      "title": "Business, Finance & Legal",
+      "emoji": "🏦",
+      "count": 0
+    },
+    {
+      "id": "13-game-development",
+      "title": "Game Development",
+      "emoji": "🎮",
+      "count": 0
+    },
+    {
+      "id": "14-regional-markets",
+      "title": "Regional Markets",
+      "emoji": "🌏",
+      "count": 0
+    },
+    {
+      "id": "15-specialized-domains",
+      "title": "Specialized Domains",
+      "emoji": "🧬",
+      "count": 0
+    },
+    {
+      "id": "16-meta-orchestration",
+      "title": "Meta & Orchestration",
+      "emoji": "🎛️",
+      "count": 0
+    }
+  ],
+  "agents": [
+    {
+      "name": "backend-architect",
+      "title": "Designs backend systems, APIs, data models, and service boundaries before code is written.",
+      "category": "01-engineering",
+      "model": "opus",
+      "tags": [
+        "architecture",
+        "api",
+        "microservices",
+        "databases",
+        "scalability",
+        "system-design"
+      ],
+      "tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Grep",
+        "Glob",
+        "Bash"
+      ],
+      "path": "categories/01-engineering/backend-architect.md"
+    }
+  ]
+}

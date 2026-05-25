@@ -1,0 +1,18 @@
+{
+  "name": "meta-orchestration-agents",
+  "version": "1.0.0",
+  "description": "Meta & Orchestration agents — Orchestrators and coordinators that compose, route, and manage other agents.",
+  "author": {
+    "name": "Sujan Bhuiyan",
+    "url": "https://github.com/sujanbhuiyan"
+  },
+  "homepage": "https://github.com/sujanbhuiyan/Agents",
+  "repository": "https://github.com/sujanbhuiyan/Agents",
+  "license": "MIT",
+  "keywords": [
+    "meta-orchestration",
+    "ai-agents",
+    "claude-code",
+    "subagents"
+  ]
+}

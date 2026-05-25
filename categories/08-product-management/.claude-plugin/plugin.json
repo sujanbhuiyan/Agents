@@ -1,0 +1,18 @@
+{
+  "name": "product-management-agents",
+  "version": "1.0.0",
+  "description": "Product & Management agents — Product strategy, delivery, discovery, and team coordination.",
+  "author": {
+    "name": "Sujan Bhuiyan",
+    "url": "https://github.com/sujanbhuiyan"
+  },
+  "homepage": "https://github.com/sujanbhuiyan/Agents",
+  "repository": "https://github.com/sujanbhuiyan/Agents",
+  "license": "MIT",
+  "keywords": [
+    "product-management",
+    "ai-agents",
+    "claude-code",
+    "subagents"
+  ]
+}

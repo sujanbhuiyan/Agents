@@ -1,0 +1,27 @@
+{
+  "$comment": "Single source of truth for the category taxonomy. Scripts and humans both read this. Adding a category? Add it here and create the matching categories/<id>/ folder.",
+  "schemaVersion": "1.0.0",
+  "models": {
+    "opus": "Deep reasoning, architecture, security, high-stakes judgment, and multi-step strategy.",
+    "sonnet": "The workhorse tier — most implementation, design, content, and analysis.",
+    "haiku": "Fast, deterministic, format-bound work — extraction, drafting, simple transforms."
+  },
+  "categories": [
+    { "id": "01-engineering",            "title": "Engineering",              "emoji": "🏗️", "color": "blue",     "description": "Core software engineering — backend, frontend, full-stack, mobile, and system architecture." },
+    { "id": "02-languages-frameworks",   "title": "Languages & Frameworks",   "emoji": "🔤", "color": "cyan",     "description": "Deep language and framework specialists with idiomatic, production-grade expertise." },
+    { "id": "03-infrastructure-devops",  "title": "Infrastructure & DevOps",  "emoji": "⚙️", "color": "orange",   "description": "Cloud, CI/CD, reliability, observability, and platform operations." },
+    { "id": "04-quality-testing",        "title": "Quality & Testing",        "emoji": "🧪", "color": "green",    "description": "Testing, code review, performance, and release confidence." },
+    { "id": "05-security-compliance",    "title": "Security & Compliance",    "emoji": "🛡️", "color": "red",      "description": "Application security, threat detection, auditing, and regulatory compliance." },
+    { "id": "06-data-ai",                "title": "Data & AI",                "emoji": "🧠", "color": "purple",   "description": "Data engineering, analytics, machine learning, and applied AI systems." },
+    { "id": "07-design-ux",              "title": "Design & UX",              "emoji": "🎨", "color": "pink",     "description": "Product design, UX research, brand, and visual craft." },
+    { "id": "08-product-management",     "title": "Product & Management",     "emoji": "🗺️", "color": "teal",     "description": "Product strategy, delivery, discovery, and team coordination." },
+    { "id": "09-marketing-growth",       "title": "Marketing & Growth",       "emoji": "📈", "color": "yellow",   "description": "Growth, content, SEO/GEO, advertising, and lifecycle marketing." },
+    { "id": "10-social-media",           "title": "Social Media",             "emoji": "📣", "color": "magenta",  "description": "Platform-native social strategy, content, and community engagement." },
+    { "id": "11-sales-revenue",          "title": "Sales & Revenue",          "emoji": "💰", "color": "gold",     "description": "Sales engineering, deal strategy, outbound, and revenue operations." },
+    { "id": "12-business-finance-legal", "title": "Business, Finance & Legal","emoji": "🏦", "color": "slate",    "description": "Finance, legal, HR, support, and back-office operations." },
+    { "id": "13-game-development",       "title": "Game Development",         "emoji": "🎮", "color": "indigo",   "description": "Game design and engine specialists — Unity, Unreal, Godot, Roblox, and Blender." },
+    { "id": "14-regional-markets",       "title": "Regional Markets",         "emoji": "🌏", "color": "crimson",  "description": "Region-specific commerce and platform specialists (China-market and cross-border)." },
+    { "id": "15-specialized-domains",    "title": "Specialized Domains",      "emoji": "🧬", "color": "brown",    "description": "Blockchain, XR, embedded, scientific, civil, and creative/worldbuilding domains." },
+    { "id": "16-meta-orchestration",     "title": "Meta & Orchestration",     "emoji": "🎛️", "color": "graphite", "description": "Orchestrators and coordinators that compose, route, and manage other agents." }
+  ]
+}

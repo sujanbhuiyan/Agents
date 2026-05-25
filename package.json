@@ -1,0 +1,33 @@
+{
+  "name": "gigaverse-agents",
+  "version": "1.0.0",
+  "description": "A curated, multi-platform library of specialized AI agents — author once, run in Claude Code, Cursor, or anywhere.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "build:index": "node scripts/build-index.mjs",
+    "build:platforms": "node scripts/build-platforms.mjs",
+    "build:marketplace": "node scripts/gen-marketplace.mjs",
+    "check": "npm run validate && npm run build"
+  },
+  "keywords": [
+    "ai-agents",
+    "subagents",
+    "claude-code",
+    "cursor",
+    "prompts",
+    "llm",
+    "agent-library"
+  ],
+  "author": "Sujan Bhuiyan (https://github.com/sujanbhuiyan)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sujanbhuiyan/Agents.git"
+  }
+}

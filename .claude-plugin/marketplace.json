@@ -1,0 +1,205 @@
+{
+  "name": "gigaverse-agents",
+  "owner": {
+    "name": "Sujan Bhuiyan",
+    "url": "https://github.com/sujanbhuiyan"
+  },
+  "metadata": {
+    "description": "A curated, multi-platform library of specialized AI agents. Install a focused pack or the whole catalog.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "engineering-agents",
+      "source": "./categories/01-engineering",
+      "description": "Engineering — 1 agents. Core software engineering — backend, frontend, full-stack, mobile, and system architecture.",
+      "category": "engineering",
+      "tags": [
+        "engineering",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "languages-frameworks-agents",
+      "source": "./categories/02-languages-frameworks",
+      "description": "Languages & Frameworks — 0 agents. Deep language and framework specialists with idiomatic, production-grade expertise.",
+      "category": "languages-frameworks",
+      "tags": [
+        "languages-frameworks",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "infrastructure-devops-agents",
+      "source": "./categories/03-infrastructure-devops",
+      "description": "Infrastructure & DevOps — 0 agents. Cloud, CI/CD, reliability, observability, and platform operations.",
+      "category": "infrastructure-devops",
+      "tags": [
+        "infrastructure-devops",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "quality-testing-agents",
+      "source": "./categories/04-quality-testing",
+      "description": "Quality & Testing — 0 agents. Testing, code review, performance, and release confidence.",
+      "category": "quality-testing",
+      "tags": [
+        "quality-testing",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "security-compliance-agents",
+      "source": "./categories/05-security-compliance",
+      "description": "Security & Compliance — 0 agents. Application security, threat detection, auditing, and regulatory compliance.",
+      "category": "security-compliance",
+      "tags": [
+        "security-compliance",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "data-ai-agents",
+      "source": "./categories/06-data-ai",
+      "description": "Data & AI — 0 agents. Data engineering, analytics, machine learning, and applied AI systems.",
+      "category": "data-ai",
+      "tags": [
+        "data-ai",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "design-ux-agents",
+      "source": "./categories/07-design-ux",
+      "description": "Design & UX — 0 agents. Product design, UX research, brand, and visual craft.",
+      "category": "design-ux",
+      "tags": [
+        "design-ux",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "product-management-agents",
+      "source": "./categories/08-product-management",
+      "description": "Product & Management — 0 agents. Product strategy, delivery, discovery, and team coordination.",
+      "category": "product-management",
+      "tags": [
+        "product-management",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "marketing-growth-agents",
+      "source": "./categories/09-marketing-growth",
+      "description": "Marketing & Growth — 0 agents. Growth, content, SEO/GEO, advertising, and lifecycle marketing.",
+      "category": "marketing-growth",
+      "tags": [
+        "marketing-growth",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "social-media-agents",
+      "source": "./categories/10-social-media",
+      "description": "Social Media — 0 agents. Platform-native social strategy, content, and community engagement.",
+      "category": "social-media",
+      "tags": [
+        "social-media",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "sales-revenue-agents",
+      "source": "./categories/11-sales-revenue",
+      "description": "Sales & Revenue — 0 agents. Sales engineering, deal strategy, outbound, and revenue operations.",
+      "category": "sales-revenue",
+      "tags": [
+        "sales-revenue",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "business-finance-legal-agents",
+      "source": "./categories/12-business-finance-legal",
+      "description": "Business, Finance & Legal — 0 agents. Finance, legal, HR, support, and back-office operations.",
+      "category": "business-finance-legal",
+      "tags": [
+        "business-finance-legal",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "game-development-agents",
+      "source": "./categories/13-game-development",
+      "description": "Game Development — 0 agents. Game design and engine specialists — Unity, Unreal, Godot, Roblox, and Blender.",
+      "category": "game-development",
+      "tags": [
+        "game-development",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "regional-markets-agents",
+      "source": "./categories/14-regional-markets",
+      "description": "Regional Markets — 0 agents. Region-specific commerce and platform specialists (China-market and cross-border).",
+      "category": "regional-markets",
+      "tags": [
+        "regional-markets",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "specialized-domains-agents",
+      "source": "./categories/15-specialized-domains",
+      "description": "Specialized Domains — 0 agents. Blockchain, XR, embedded, scientific, civil, and creative/worldbuilding domains.",
+      "category": "specialized-domains",
+      "tags": [
+        "specialized-domains",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    },
+    {
+      "name": "meta-orchestration-agents",
+      "source": "./categories/16-meta-orchestration",
+      "description": "Meta & Orchestration — 0 agents. Orchestrators and coordinators that compose, route, and manage other agents.",
+      "category": "meta-orchestration",
+      "tags": [
+        "meta-orchestration",
+        "agents",
+        "subagents"
+      ],
+      "strict": false
+    }
+  ]
+}

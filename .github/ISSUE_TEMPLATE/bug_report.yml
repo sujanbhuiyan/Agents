@@ -1,0 +1,22 @@
+name: "🐛 Report an issue"
+description: A problem with an agent's behavior, the tooling, or the docs
+title: "[bug] <short summary>"
+labels: ["bug"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Which agent or file?
+      placeholder: categories/04-quality-testing/api-tester.md
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong / what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce (if applicable)

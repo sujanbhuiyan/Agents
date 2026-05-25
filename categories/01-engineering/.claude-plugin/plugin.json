@@ -1,0 +1,18 @@
+{
+  "name": "engineering-agents",
+  "version": "1.0.0",
+  "description": "Engineering agents — Core software engineering — backend, frontend, full-stack, mobile, and system architecture.",
+  "author": {
+    "name": "Sujan Bhuiyan",
+    "url": "https://github.com/sujanbhuiyan"
+  },
+  "homepage": "https://github.com/sujanbhuiyan/Agents",
+  "repository": "https://github.com/sujanbhuiyan/Agents",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "ai-agents",
+    "claude-code",
+    "subagents"
+  ]
+}

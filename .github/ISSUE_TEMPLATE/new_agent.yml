@@ -1,0 +1,56 @@
+name: "🤖 Propose a new agent"
+description: Suggest a new specialized agent for the library
+title: "[agent] <agent-name>"
+labels: ["new-agent"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed name (kebab-case)
+      placeholder: vector-db-engineer
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - 01-engineering
+        - 02-languages-frameworks
+        - 03-infrastructure-devops
+        - 04-quality-testing
+        - 05-security-compliance
+        - 06-data-ai
+        - 07-design-ux
+        - 08-product-management
+        - 09-marketing-growth
+        - 10-social-media
+        - 11-sales-revenue
+        - 12-business-finance-legal
+        - 13-game-development
+        - 14-regional-markets
+        - 15-specialized-domains
+        - 16-meta-orchestration
+    validations:
+      required: true
+  - type: textarea
+    id: jtbd
+    attributes:
+      label: Job to be done
+      description: What does this agent do, and when should it be invoked?
+    validations:
+      required: true
+  - type: dropdown
+    id: model
+    attributes:
+      label: Suggested model tier
+      options: [haiku, sonnet, opus]
+    validations:
+      required: true
+  - type: textarea
+    id: distinct
+    attributes:
+      label: How is it distinct from existing agents?
+      description: Search AGENTS.md first. Why is this not covered by an existing agent?
+    validations:
+      required: true

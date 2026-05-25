@@ -1,0 +1,18 @@
+{
+  "name": "infrastructure-devops-agents",
+  "version": "1.0.0",
+  "description": "Infrastructure & DevOps agents — Cloud, CI/CD, reliability, observability, and platform operations.",
+  "author": {
+    "name": "Sujan Bhuiyan",
+    "url": "https://github.com/sujanbhuiyan"
+  },
+  "homepage": "https://github.com/sujanbhuiyan/Agents",
+  "repository": "https://github.com/sujanbhuiyan/Agents",
+  "license": "MIT",
+  "keywords": [
+    "infrastructure-devops",
+    "ai-agents",
+    "claude-code",
+    "subagents"
+  ]
+}

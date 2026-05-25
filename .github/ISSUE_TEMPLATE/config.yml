@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Authoring guide
+    url: https://github.com/sujanbhuiyan/Agents/blob/main/docs/authoring-guide.md
+    about: How to write a high-quality agent before opening a PR.
+  - name: 🗂️ Browse the full catalog
+    url: https://github.com/sujanbhuiyan/Agents/blob/main/AGENTS.md
+    about: Check whether an agent already exists before proposing a new one.

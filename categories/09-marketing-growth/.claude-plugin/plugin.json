@@ -1,0 +1,18 @@
+{
+  "name": "marketing-growth-agents",
+  "version": "1.0.0",
+  "description": "Marketing & Growth agents — Growth, content, SEO/GEO, advertising, and lifecycle marketing.",
+  "author": {
+    "name": "Sujan Bhuiyan",
+    "url": "https://github.com/sujanbhuiyan"
+  },
+  "homepage": "https://github.com/sujanbhuiyan/Agents",
+  "repository": "https://github.com/sujanbhuiyan/Agents",
+  "license": "MIT",
+  "keywords": [
+    "marketing-growth",
+    "ai-agents",
+    "claude-code",
+    "subagents"
+  ]
+}

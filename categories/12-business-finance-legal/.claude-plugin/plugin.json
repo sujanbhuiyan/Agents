@@ -1,0 +1,18 @@
+{
+  "name": "business-finance-legal-agents",
+  "version": "1.0.0",
+  "description": "Business, Finance & Legal agents — Finance, legal, HR, support, and back-office operations.",
+  "author": {
+    "name": "Sujan Bhuiyan",
+    "url": "https://github.com/sujanbhuiyan"
+  },
+  "homepage": "https://github.com/sujanbhuiyan/Agents",
+  "repository": "https://github.com/sujanbhuiyan/Agents",
+  "license": "MIT",
+  "keywords": [
+    "business-finance-legal",
+    "ai-agents",
+    "claude-code",
+    "subagents"
+  ]
+}
