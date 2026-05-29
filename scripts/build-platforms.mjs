@@ -53,7 +53,6 @@ for (const a of agents) {
 
 // --- Universal manifest ---
 const manifest = {
-  generatedAt: new Date().toISOString().slice(0, 10),
   total: agents.length,
   agents: agents.map((a) => ({
     name: a.name,

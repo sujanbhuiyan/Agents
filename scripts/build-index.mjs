@@ -20,7 +20,6 @@ for (const list of grouped.values()) list.sort((x, y) => x.name.localeCompare(y.
 
 // ---- index.json -------------------------------------------------------------
 const index = {
-  generatedAt: new Date().toISOString().slice(0, 10),
   total: agents.length,
   categories: taxonomy.categories.map((c) => ({
     id: c.id,
